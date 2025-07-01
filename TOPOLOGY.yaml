@@ -1,0 +1,5528 @@
+inputs:
+  devices:
+  - inputs:
+      device:
+        hostname: cdv566-border_LF1a
+        interfaces:
+        - inputs:
+            interface:
+              neighborDeviceId: JPE19391306
+              neighborInterfaceName: Ethernet1/1
+          tags:
+            query: interface:Ethernet1@JMX2321BBG2
+        - inputs:
+            interface:
+              neighborDeviceId: JPE20012250
+              neighborInterfaceName: Ethernet2/1
+          tags:
+            query: interface:Ethernet2@JMX2321BBG2
+        - inputs:
+            interface:
+              neighborDeviceId: 3B43374FB1F4982B5BACA7BFE63D129C
+              neighborInterfaceName: Ethernet1
+          tags:
+            query: interface:Ethernet3@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet4@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet25@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet31@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet32@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet33@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet34@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet35@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet36@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet37@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet38@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet39@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet40@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet41@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet42@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet43@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet44@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet45@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet46@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet47@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet48@JMX2321BBG2
+        - inputs:
+            interface:
+              neighborDeviceId: JPN2439P0XU
+              neighborInterfaceName: Ethernet25/1
+          tags:
+            query: interface:Ethernet49/1@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/2@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/3@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/4@JMX2321BBG2
+        - inputs:
+            interface:
+              neighborDeviceId: JPN2439P4QA
+              neighborInterfaceName: Ethernet25/1
+          tags:
+            query: interface:Ethernet50/1@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/2@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/3@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/4@JMX2321BBG2
+        - inputs:
+            interface:
+              neighborDeviceId: JPN2439P3J9
+              neighborInterfaceName: Ethernet25/1
+          tags:
+            query: interface:Ethernet51/1@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/2@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/3@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/4@JMX2321BBG2
+        - inputs:
+            interface:
+              neighborDeviceId: JPA2320P22Q
+              neighborInterfaceName: Ethernet52/1
+          tags:
+            query: interface:Ethernet52/1@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/2@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/3@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/4@JMX2321BBG2
+        - inputs:
+            interface:
+              neighborDeviceId: JPA2320P22Q
+              neighborInterfaceName: Ethernet53/1
+          tags:
+            query: interface:Ethernet53/1@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/2@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/3@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/4@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/1@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/2@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/3@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/4@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/1@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/2@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/3@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/4@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/1@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/2@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/3@JMX2321BBG2
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/4@JMX2321BBG2
+        - inputs:
+            interface:
+              neighborDeviceId: 68:8b:f4:31:78:47
+              neighborInterfaceName: Ethernet40
+          tags:
+            query: interface:Management1@JMX2321BBG2
+        macAddress: fc:59:c0:91:c6:11
+        modelName: DCS-7280SR3-48YC8
+    tags:
+      query: device:JMX2321BBG2
+  - inputs:
+      device:
+        hostname: cdv584-border_LF1b
+        interfaces:
+        - inputs:
+            interface:
+              neighborDeviceId: JPE20012250
+              neighborInterfaceName: Ethernet1/1
+          tags:
+            query: interface:Ethernet1@JPA2320P22Q
+        - inputs:
+            interface:
+              neighborDeviceId: JPE19391306
+              neighborInterfaceName: Ethernet2/1
+          tags:
+            query: interface:Ethernet2@JPA2320P22Q
+        - inputs:
+            interface:
+              neighborDeviceId: 3B43374FB1F4982B5BACA7BFE63D129C
+              neighborInterfaceName: Ethernet2
+          tags:
+            query: interface:Ethernet3@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet4@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet25@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet31@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet32@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet33@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet34@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet35@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet36@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet37@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet38@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet39@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet40@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet41@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet42@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet43@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet44@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet45@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet46@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet47@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet48@JPA2320P22Q
+        - inputs:
+            interface:
+              neighborDeviceId: JPN2439P0XU
+              neighborInterfaceName: Ethernet26/1
+          tags:
+            query: interface:Ethernet49/1@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/2@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/3@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/4@JPA2320P22Q
+        - inputs:
+            interface:
+              neighborDeviceId: JPN2439P4QA
+              neighborInterfaceName: Ethernet26/1
+          tags:
+            query: interface:Ethernet50/1@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/2@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/3@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/4@JPA2320P22Q
+        - inputs:
+            interface:
+              neighborDeviceId: JPN2439P3J9
+              neighborInterfaceName: Ethernet26/1
+          tags:
+            query: interface:Ethernet51/1@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/2@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/3@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/4@JPA2320P22Q
+        - inputs:
+            interface:
+              neighborDeviceId: JMX2321BBG2
+              neighborInterfaceName: Ethernet52/1
+          tags:
+            query: interface:Ethernet52/1@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/2@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/3@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/4@JPA2320P22Q
+        - inputs:
+            interface:
+              neighborDeviceId: JMX2321BBG2
+              neighborInterfaceName: Ethernet53/1
+          tags:
+            query: interface:Ethernet53/1@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/2@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/3@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/4@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/1@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/2@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/3@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/4@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/1@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/2@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/3@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/4@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/1@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/2@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/3@JPA2320P22Q
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/4@JPA2320P22Q
+        - inputs:
+            interface:
+              neighborDeviceId: 68:8b:f4:31:78:47
+              neighborInterfaceName: Ethernet32
+          tags:
+            query: interface:Management1@JPA2320P22Q
+        macAddress: fc:59:c0:43:aa:2d
+        modelName: DCS-7280SR3-48YC8
+    tags:
+      query: device:JPA2320P22Q
+  - inputs:
+      device:
+        hostname: ghb284-wan
+        interfaces:
+        - inputs:
+            interface:
+              neighborDeviceId: JMX2321BBG2
+              neighborInterfaceName: Ethernet1
+          tags:
+            query: interface:Ethernet1/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet1/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet1/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet1/4@JPE19391306
+        - inputs:
+            interface:
+              neighborDeviceId: JPA2320P22Q
+              neighborInterfaceName: Ethernet2
+          tags:
+            query: interface:Ethernet2/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet2/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet2/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet2/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet4/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet4/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet4/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet4/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet25/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet25/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet25/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet25/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29/4@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/1@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/2@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/3@JPE19391306
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/4@JPE19391306
+        - inputs:
+            interface:
+              neighborDeviceId: 68:8b:f4:31:78:47
+              neighborInterfaceName: Ethernet42
+          tags:
+            query: interface:Management1@JPE19391306
+        macAddress: fc:bd:67:f4:c5:01
+        modelName: DCS-7280CR2K-30
+    tags:
+      query: device:JPE19391306
+  - inputs:
+      device:
+        hostname: ghb285-internet
+        interfaces:
+        - inputs:
+            interface:
+              neighborDeviceId: JPA2320P22Q
+              neighborInterfaceName: Ethernet1
+          tags:
+            query: interface:Ethernet1/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet1/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet1/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet1/4@JPE20012250
+        - inputs:
+            interface:
+              neighborDeviceId: JMX2321BBG2
+              neighborInterfaceName: Ethernet2
+          tags:
+            query: interface:Ethernet2/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet2/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet2/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet2/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet4/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet4/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet4/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet4/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet25/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet25/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet25/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet25/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29/4@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/1@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/2@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/3@JPE20012250
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/4@JPE20012250
+        - inputs:
+            interface:
+              neighborDeviceId: 68:8b:f4:31:78:47
+              neighborInterfaceName: Ethernet35
+          tags:
+            query: interface:Management1@JPE20012250
+        macAddress: fc:bd:67:f5:2c:6b
+        modelName: DCS-7280CR2K-30
+    tags:
+      query: device:JPE20012250
+  - inputs:
+      device:
+        hostname: mhd367-spine1
+        interfaces:
+        - inputs:
+            interface:
+              neighborDeviceId: HBG2333015T
+              neighborInterfaceName: Ethernet49/1
+          tags:
+            query: interface:Ethernet1/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet1/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet1/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet1/4@JPN2439P0XU
+        - inputs:
+            interface:
+              neighborDeviceId: HBG2333015N
+              neighborInterfaceName: Ethernet49/1
+          tags:
+            query: interface:Ethernet2/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet2/3@JPN2439P0XU
+        - inputs:
+            interface:
+              neighborDeviceId: HBG2403051V
+              neighborInterfaceName: Ethernet49/1
+          tags:
+            query: interface:Ethernet3/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3/4@JPN2439P0XU
+        - inputs:
+            interface:
+              neighborDeviceId: HBG2403054B
+              neighborInterfaceName: Ethernet49/1
+          tags:
+            query: interface:Ethernet4/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet4/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24/3@JPN2439P0XU
+        - inputs:
+            interface:
+              neighborDeviceId: JMX2321BBG2
+              neighborInterfaceName: Ethernet49/1
+          tags:
+            query: interface:Ethernet25/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet25/3@JPN2439P0XU
+        - inputs:
+            interface:
+              neighborDeviceId: JPA2320P22Q
+              neighborInterfaceName: Ethernet49/1
+          tags:
+            query: interface:Ethernet26/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet31/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet31/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet32/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet32/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet32/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet32/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet33/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet33/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet34/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet34/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet34/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet34/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet35/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet35/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet36/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet36/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet36/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet36/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet37/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet37/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet38/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet38/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet38/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet38/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet39/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet39/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet40/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet40/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet40/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet40/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet41/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet41/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet42/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet42/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet42/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet42/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet43/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet43/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet44/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet44/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet44/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet44/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet45/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet45/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet46/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet46/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet46/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet46/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet47/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet47/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet48/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet48/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet48/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet48/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/5@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/6@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/7@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/8@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/5@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/6@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/7@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/8@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/5@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/6@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/7@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/8@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/5@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/6@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/7@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/8@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/5@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/6@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/7@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/8@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/5@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/6@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/7@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/8@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/5@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/6@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/7@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/8@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/1@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/2@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/3@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/4@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/5@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/6@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/7@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/8@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet57@JPN2439P0XU
+        - inputs: {}
+          tags:
+            query: interface:Ethernet58@JPN2439P0XU
+        - inputs:
+            interface:
+              neighborDeviceId: 68:8b:f4:31:78:47
+              neighborInterfaceName: Ethernet45
+          tags:
+            query: interface:Management1@JPN2439P0XU
+        macAddress: 9c:69:ed:71:68:c1
+        modelName: DCS-7050CX4M-48D8
+    tags:
+      query: device:JPN2439P0XU
+  - inputs:
+      device:
+        hostname: mhd368-spine2
+        interfaces:
+        - inputs:
+            interface:
+              neighborDeviceId: HBG2333015T
+              neighborInterfaceName: Ethernet50/1
+          tags:
+            query: interface:Ethernet1/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet1/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet1/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet1/4@JPN2439P4QA
+        - inputs:
+            interface:
+              neighborDeviceId: HBG2333015N
+              neighborInterfaceName: Ethernet50/1
+          tags:
+            query: interface:Ethernet2/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet2/3@JPN2439P4QA
+        - inputs:
+            interface:
+              neighborDeviceId: HBG2403051V
+              neighborInterfaceName: Ethernet50/1
+          tags:
+            query: interface:Ethernet3/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3/4@JPN2439P4QA
+        - inputs:
+            interface:
+              neighborDeviceId: HBG2403054B
+              neighborInterfaceName: Ethernet50/1
+          tags:
+            query: interface:Ethernet4/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet4/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24/3@JPN2439P4QA
+        - inputs:
+            interface:
+              neighborDeviceId: JMX2321BBG2
+              neighborInterfaceName: Ethernet50/1
+          tags:
+            query: interface:Ethernet25/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet25/3@JPN2439P4QA
+        - inputs:
+            interface:
+              neighborDeviceId: JPA2320P22Q
+              neighborInterfaceName: Ethernet50/1
+          tags:
+            query: interface:Ethernet26/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet31/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet31/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet32/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet32/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet32/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet32/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet33/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet33/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet34/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet34/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet34/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet34/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet35/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet35/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet36/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet36/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet36/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet36/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet37/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet37/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet38/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet38/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet38/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet38/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet39/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet39/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet40/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet40/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet40/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet40/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet41/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet41/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet42/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet42/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet42/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet42/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet43/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet43/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet44/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet44/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet44/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet44/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet45/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet45/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet46/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet46/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet46/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet46/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet47/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet47/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet48/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet48/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet48/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet48/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/5@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/6@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/7@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/8@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/5@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/6@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/7@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/8@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/5@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/6@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/7@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/8@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/5@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/6@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/7@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/8@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/5@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/6@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/7@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/8@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/5@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/6@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/7@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/8@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/5@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/6@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/7@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/8@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/1@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/2@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/3@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/4@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/5@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/6@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/7@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/8@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet57@JPN2439P4QA
+        - inputs: {}
+          tags:
+            query: interface:Ethernet58@JPN2439P4QA
+        - inputs:
+            interface:
+              neighborDeviceId: 68:8b:f4:31:78:47
+              neighborInterfaceName: Ethernet43
+          tags:
+            query: interface:Management1@JPN2439P4QA
+        macAddress: 9c:69:ed:71:44:ef
+        modelName: DCS-7050CX4M-48D8
+    tags:
+      query: device:JPN2439P4QA
+  - inputs:
+      device:
+        hostname: mhd369-spine3
+        interfaces:
+        - inputs:
+            interface:
+              neighborDeviceId: HBG2333015T
+              neighborInterfaceName: Ethernet51/1
+          tags:
+            query: interface:Ethernet1/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet1/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet1/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet1/4@JPN2439P3J9
+        - inputs:
+            interface:
+              neighborDeviceId: HBG2333015N
+              neighborInterfaceName: Ethernet51/1
+          tags:
+            query: interface:Ethernet2/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet2/3@JPN2439P3J9
+        - inputs:
+            interface:
+              neighborDeviceId: HBG2403051V
+              neighborInterfaceName: Ethernet51/1
+          tags:
+            query: interface:Ethernet3/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3/4@JPN2439P3J9
+        - inputs:
+            interface:
+              neighborDeviceId: HBG2403054B
+              neighborInterfaceName: Ethernet51/1
+          tags:
+            query: interface:Ethernet4/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet4/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24/3@JPN2439P3J9
+        - inputs:
+            interface:
+              neighborDeviceId: JMX2321BBG2
+              neighborInterfaceName: Ethernet51/1
+          tags:
+            query: interface:Ethernet25/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet25/3@JPN2439P3J9
+        - inputs:
+            interface:
+              neighborDeviceId: JPA2320P22Q
+              neighborInterfaceName: Ethernet51/1
+          tags:
+            query: interface:Ethernet26/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet31/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet31/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet32/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet32/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet32/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet32/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet33/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet33/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet34/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet34/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet34/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet34/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet35/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet35/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet36/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet36/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet36/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet36/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet37/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet37/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet38/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet38/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet38/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet38/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet39/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet39/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet40/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet40/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet40/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet40/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet41/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet41/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet42/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet42/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet42/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet42/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet43/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet43/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet44/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet44/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet44/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet44/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet45/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet45/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet46/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet46/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet46/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet46/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet47/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet47/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet48/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet48/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet48/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet48/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/5@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/6@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/7@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/8@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/5@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/6@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/7@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/8@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/5@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/6@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/7@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/8@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/5@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/6@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/7@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/8@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/5@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/6@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/7@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/8@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/5@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/6@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/7@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/8@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/5@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/6@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/7@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/8@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/1@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/2@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/3@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/4@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/5@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/6@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/7@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/8@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet57@JPN2439P3J9
+        - inputs: {}
+          tags:
+            query: interface:Ethernet58@JPN2439P3J9
+        - inputs:
+            interface:
+              neighborDeviceId: 68:8b:f4:31:78:47
+              neighborInterfaceName: Ethernet44
+          tags:
+            query: interface:Management1@JPN2439P3J9
+        macAddress: 9c:69:ed:71:22:23
+        modelName: DCS-7050CX4M-48D8
+    tags:
+      query: device:JPN2439P3J9
+  - inputs:
+      device:
+        hostname: mrvp350-leaf1b
+        interfaces:
+        - inputs: {}
+          tags:
+            query: interface:Ethernet1@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet2@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet4@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet25@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet31@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet32@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet33@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet34@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet35@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet36@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet37@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet38@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet39@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet40@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet41@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet42@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet43@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet44@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet45@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet46@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet47@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet48@HBG2333015N
+        - inputs:
+            interface:
+              neighborDeviceId: JPN2439P0XU
+              neighborInterfaceName: Ethernet2/1
+          tags:
+            query: interface:Ethernet49/1@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/2@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/3@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/4@HBG2333015N
+        - inputs:
+            interface:
+              neighborDeviceId: JPN2439P4QA
+              neighborInterfaceName: Ethernet2/1
+          tags:
+            query: interface:Ethernet50/1@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/2@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/3@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/4@HBG2333015N
+        - inputs:
+            interface:
+              neighborDeviceId: JPN2439P3J9
+              neighborInterfaceName: Ethernet2/1
+          tags:
+            query: interface:Ethernet51/1@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/2@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/3@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/4@HBG2333015N
+        - inputs:
+            interface:
+              neighborDeviceId: JPE18220931
+              neighborInterfaceName: Ethernet2/1
+          tags:
+            query: interface:Ethernet52/1@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/2@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/3@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/4@HBG2333015N
+        - inputs:
+            interface:
+              neighborDeviceId: HBG2333015T
+              neighborInterfaceName: Ethernet53/1
+          tags:
+            query: interface:Ethernet53/1@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/2@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/3@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/4@HBG2333015N
+        - inputs:
+            interface:
+              neighborDeviceId: HBG2333015T
+              neighborInterfaceName: Ethernet54/1
+          tags:
+            query: interface:Ethernet54/1@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/2@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/3@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/4@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/1@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/2@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/3@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/4@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/1@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/2@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/3@HBG2333015N
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/4@HBG2333015N
+        - inputs:
+            interface:
+              neighborDeviceId: 68:8b:f4:31:78:47
+              neighborInterfaceName: Ethernet30
+          tags:
+            query: interface:Management1@HBG2333015N
+        macAddress: e4:78:76:9c:99:9d
+        modelName: DCS-7050SX3-48YC8C
+    tags:
+      query: device:HBG2333015N
+  - inputs:
+      device:
+        hostname: mrvp360-leaf2a
+        interfaces:
+        - inputs: {}
+          tags:
+            query: interface:Ethernet1@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet2@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet4@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet25@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet31@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet32@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet33@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet34@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet35@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet36@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet37@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet38@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet39@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet40@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet41@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet42@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet43@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet44@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet45@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet46@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet47@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet48@HBG2403051V
+        - inputs:
+            interface:
+              neighborDeviceId: JPN2439P0XU
+              neighborInterfaceName: Ethernet3/1
+          tags:
+            query: interface:Ethernet49/1@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/2@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/3@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/4@HBG2403051V
+        - inputs:
+            interface:
+              neighborDeviceId: JPN2439P4QA
+              neighborInterfaceName: Ethernet3/1
+          tags:
+            query: interface:Ethernet50/1@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/2@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/3@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/4@HBG2403051V
+        - inputs:
+            interface:
+              neighborDeviceId: JPN2439P3J9
+              neighborInterfaceName: Ethernet3/1
+          tags:
+            query: interface:Ethernet51/1@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/2@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/3@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/4@HBG2403051V
+        - inputs:
+            interface:
+              neighborDeviceId: 1c:34:da:77:17:79
+              neighborInterfaceName: 1c:34:da:77:17:79
+          tags:
+            query: interface:Ethernet52/1@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/2@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/3@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/4@HBG2403051V
+        - inputs:
+            interface:
+              neighborDeviceId: JPE18220919
+              neighborInterfaceName: Ethernet1/1
+          tags:
+            query: interface:Ethernet53/1@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/2@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/3@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/4@HBG2403051V
+        - inputs:
+            interface:
+              neighborDeviceId: HBG2403054B
+              neighborInterfaceName: Ethernet54/1
+          tags:
+            query: interface:Ethernet54/1@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/2@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/3@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/4@HBG2403051V
+        - inputs:
+            interface:
+              neighborDeviceId: HBG2403054B
+              neighborInterfaceName: Ethernet55/1
+          tags:
+            query: interface:Ethernet55/1@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/2@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/3@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/4@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/1@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/2@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/3@HBG2403051V
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/4@HBG2403051V
+        - inputs:
+            interface:
+              neighborDeviceId: 68:8b:f4:31:78:47
+              neighborInterfaceName: Ethernet33
+          tags:
+            query: interface:Management1@HBG2403051V
+        macAddress: 68:8b:f4:1d:c2:05
+        modelName: DCS-7050SX3-48YC8C
+    tags:
+      query: device:HBG2403051V
+  - inputs:
+      device:
+        hostname: mrvp361-leaf2b
+        interfaces:
+        - inputs: {}
+          tags:
+            query: interface:Ethernet1@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet2@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet4@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet25@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet31@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet32@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet33@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet34@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet35@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet36@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet37@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet38@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet39@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet40@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet41@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet42@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet43@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet44@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet45@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet46@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet47@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet48@HBG2403054B
+        - inputs:
+            interface:
+              neighborDeviceId: JPN2439P0XU
+              neighborInterfaceName: Ethernet4/1
+          tags:
+            query: interface:Ethernet49/1@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/2@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/3@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/4@HBG2403054B
+        - inputs:
+            interface:
+              neighborDeviceId: JPN2439P4QA
+              neighborInterfaceName: Ethernet4/1
+          tags:
+            query: interface:Ethernet50/1@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/2@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/3@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/4@HBG2403054B
+        - inputs:
+            interface:
+              neighborDeviceId: JPN2439P3J9
+              neighborInterfaceName: Ethernet4/1
+          tags:
+            query: interface:Ethernet51/1@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/2@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/3@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/4@HBG2403054B
+        - inputs:
+            interface:
+              neighborDeviceId: 1c:34:da:77:17:78
+              neighborInterfaceName: 1c:34:da:77:17:78
+          tags:
+            query: interface:Ethernet52/1@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/2@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/3@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/4@HBG2403054B
+        - inputs:
+            interface:
+              neighborDeviceId: JPE18220919
+              neighborInterfaceName: Ethernet2/1
+          tags:
+            query: interface:Ethernet53/1@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/2@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/3@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/4@HBG2403054B
+        - inputs:
+            interface:
+              neighborDeviceId: HBG2403051V
+              neighborInterfaceName: Ethernet54/1
+          tags:
+            query: interface:Ethernet54/1@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/2@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/3@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/4@HBG2403054B
+        - inputs:
+            interface:
+              neighborDeviceId: HBG2403051V
+              neighborInterfaceName: Ethernet55/1
+          tags:
+            query: interface:Ethernet55/1@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/2@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/3@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/4@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/1@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/2@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/3@HBG2403054B
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/4@HBG2403054B
+        - inputs:
+            interface:
+              neighborDeviceId: 68:8b:f4:31:78:47
+              neighborInterfaceName: Ethernet31
+          tags:
+            query: interface:Management1@HBG2403054B
+        macAddress: 68:8b:f4:1e:1c:59
+        modelName: DCS-7050SX3-48YC8C
+    tags:
+      query: device:HBG2403054B
+  - inputs:
+      device:
+        hostname: upp428-harness1
+        interfaces:
+        - inputs:
+            interface:
+              neighborDeviceId: HBG2333015T
+              neighborInterfaceName: Ethernet52/1
+          tags:
+            query: interface:Ethernet1/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet1/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet1/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet1/4@JPE18220931
+        - inputs:
+            interface:
+              neighborDeviceId: HBG2333015N
+              neighborInterfaceName: Ethernet52/1
+          tags:
+            query: interface:Ethernet2/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet2/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet2/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet2/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet4/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet4/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet4/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet4/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet25/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet25/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet25/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet25/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet31/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet31/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet31/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet31/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet32/1@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet32/2@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet32/3@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet32/4@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet33@JPE18220931
+        - inputs: {}
+          tags:
+            query: interface:Ethernet34@JPE18220931
+        - inputs:
+            interface:
+              neighborDeviceId: 68:8b:f4:31:78:47
+              neighborInterfaceName: Ethernet46
+          tags:
+            query: interface:Management1@JPE18220931
+        macAddress: 74:83:ef:58:3e:7f
+        modelName: DCS-7060CX2-32S
+    tags:
+      query: device:JPE18220931
+  - inputs:
+      device:
+        hostname: upp429-harness2
+        interfaces:
+        - inputs:
+            interface:
+              neighborDeviceId: HBG2403051V
+              neighborInterfaceName: Ethernet53/1
+          tags:
+            query: interface:Ethernet1/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet1/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet1/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet1/4@JPE18220919
+        - inputs:
+            interface:
+              neighborDeviceId: HBG2403054B
+              neighborInterfaceName: Ethernet53/1
+          tags:
+            query: interface:Ethernet2/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet2/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet2/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet2/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet4/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet4/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet4/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet4/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet25/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet25/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet25/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet25/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet31/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet31/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet31/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet31/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet32/1@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet32/2@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet32/3@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet32/4@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet33@JPE18220919
+        - inputs: {}
+          tags:
+            query: interface:Ethernet34@JPE18220919
+        - inputs:
+            interface:
+              neighborDeviceId: 68:8b:f4:31:78:47
+              neighborInterfaceName: Ethernet47
+          tags:
+            query: interface:Management1@JPE18220919
+        macAddress: 74:83:ef:58:44:af
+        modelName: DCS-7060CX2-32S
+    tags:
+      query: device:JPE18220919
+  - inputs:
+      device:
+        hostname: vupoc-cloudeos-1
+        interfaces:
+        - inputs:
+            interface:
+              neighborDeviceId: JMX2321BBG2
+              neighborInterfaceName: Ethernet3
+          tags:
+            query: interface:Ethernet1@3B43374FB1F4982B5BACA7BFE63D129C
+        - inputs:
+            interface:
+              neighborDeviceId: JPA2320P22Q
+              neighborInterfaceName: Ethernet3
+          tags:
+            query: interface:Ethernet2@3B43374FB1F4982B5BACA7BFE63D129C
+        - inputs:
+            interface:
+              neighborDeviceId: 68:8b:f4:31:78:47
+              neighborInterfaceName: Ethernet38
+          tags:
+            query: interface:Management1@3B43374FB1F4982B5BACA7BFE63D129C
+        macAddress: 00:50:56:75:7a:36
+        modelName: vEOS
+    tags:
+      query: device:3B43374FB1F4982B5BACA7BFE63D129C
+  - inputs:
+      device:
+        hostname: mrvp307-leaf1a
+        interfaces:
+        - inputs: {}
+          tags:
+            query: interface:Ethernet1@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet2@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet4@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet25@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet31@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet32@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet33@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet34@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet35@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet36@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet37@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet38@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet39@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet40@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet41@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet42@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet43@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet44@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet45@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet46@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet47@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet48@HBG2333015T
+        - inputs:
+            interface:
+              neighborDeviceId: JPN2439P0XU
+              neighborInterfaceName: Ethernet1/1
+          tags:
+            query: interface:Ethernet49/1@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/2@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/3@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/4@HBG2333015T
+        - inputs:
+            interface:
+              neighborDeviceId: JPN2439P4QA
+              neighborInterfaceName: Ethernet1/1
+          tags:
+            query: interface:Ethernet50/1@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/2@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/3@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/4@HBG2333015T
+        - inputs:
+            interface:
+              neighborDeviceId: JPN2439P3J9
+              neighborInterfaceName: Ethernet1/1
+          tags:
+            query: interface:Ethernet51/1@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/2@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/3@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/4@HBG2333015T
+        - inputs:
+            interface:
+              neighborDeviceId: JPE18220931
+              neighborInterfaceName: Ethernet1/1
+          tags:
+            query: interface:Ethernet52/1@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/2@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/3@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/4@HBG2333015T
+        - inputs:
+            interface:
+              neighborDeviceId: HBG2333015N
+              neighborInterfaceName: Ethernet53/1
+          tags:
+            query: interface:Ethernet53/1@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/2@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/3@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/4@HBG2333015T
+        - inputs:
+            interface:
+              neighborDeviceId: HBG2333015N
+              neighborInterfaceName: Ethernet54/1
+          tags:
+            query: interface:Ethernet54/1@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/2@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/3@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/4@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/1@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/2@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/3@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/4@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/1@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/2@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/3@HBG2333015T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/4@HBG2333015T
+        - inputs:
+            interface:
+              neighborDeviceId: 68:8b:f4:31:78:47
+              neighborInterfaceName: Ethernet34
+          tags:
+            query: interface:Management1@HBG2333015T
+        macAddress: e4:78:76:9c:92:3f
+        modelName: DCS-7050SX3-48YC8C
+    tags:
+      query: device:HBG2333015T
+  - inputs:
+      device:
+        hostname: mrvp362-leaf1a
+        interfaces:
+        - inputs: {}
+          tags:
+            query: interface:Ethernet1@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet2@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet3@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet4@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet5@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet6@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet7@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet8@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet9@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet10@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet11@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet12@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet13@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet14@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet15@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet16@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet17@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet18@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet19@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet20@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet21@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet22@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet23@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet24@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet25@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet26@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet27@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet28@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet29@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet30@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet31@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet32@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet33@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet34@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet35@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet36@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet37@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet38@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet39@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet40@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet41@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet42@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet43@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet44@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet45@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet46@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet47@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet48@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/1@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/2@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/3@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet49/4@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/1@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/2@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/3@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet50/4@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/1@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/2@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/3@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet51/4@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/1@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/2@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/3@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet52/4@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/1@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/2@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/3@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet53/4@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/1@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/2@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/3@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet54/4@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/1@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/2@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/3@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet55/4@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/1@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/2@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/3@HBG2403078T
+        - inputs: {}
+          tags:
+            query: interface:Ethernet56/4@HBG2403078T
+        - inputs:
+            interface:
+              neighborDeviceId: 68:8b:f4:31:78:47
+              neighborInterfaceName: Ethernet27
+          tags:
+            query: interface:Management1@HBG2403078T
+        macAddress: 68:8b:f4:19:00:d5
+        modelName: DCS-7050SX3-48YC8C
+    tags:
+      query: device:HBG2403078T
+  - inputs:
+      device:
+        hostname: poc-vu-vZTX
+        interfaces:
+        - inputs:
+            interface:
+              neighborDeviceId: 3B43374FB1F4982B5BACA7BFE63D129C
+              neighborInterfaceName: Ethernet1
+          tags:
+            query: interface:Ethernet1@6C720D7A0BBE2C8D4C4A284B5010055F
+        - inputs:
+            interface:
+              neighborDeviceId: 3B43374FB1F4982B5BACA7BFE63D129C
+              neighborInterfaceName: Ethernet1
+          tags:
+            query: interface:Ethernet2@6C720D7A0BBE2C8D4C4A284B5010055F
+        - inputs:
+            interface:
+              neighborDeviceId: 3B43374FB1F4982B5BACA7BFE63D129C
+              neighborInterfaceName: Ethernet1
+          tags:
+            query: interface:Management1@6C720D7A0BBE2C8D4C4A284B5010055F
+        macAddress: 00:50:56:38:ec:23
+        modelName: vEOS
+    tags:
+      query: device:6C720D7A0BBE2C8D4C4A284B5010055F
+  state:
+    acceptedKeys: NoIghgJhBc0CIFEBqBJAwg2BvAOiCApgG4CWAxgShHtHgGxoDsATAAxyMCCrAQjwszQAOOABY0ozsyGieAVlYBGVqzlyAYngA0eABYB7AM4AXAHZgAtgRp4ADvrIBaIgFdnALQAqADW14SpsYEAE4AZmAUAMokAF7WINAAzAC+IAC6QA
+    ignoredKeys: NoIgTgpgtg9gbhAXIgwgeQHIYKIoCoCSmyA3gDogAmEcAlgMYQGUWIUASAQgOIBMALAAYAzIICsARgBqFADQUAFjADOAFwB2AQygRWFKGDgAHYQDZBAWgA2ETQDNemuRVrrVEMHc2MM23SDYQbFUFD3UIVTFeAHoJZxBw2gBzBQAjGDAAERoGJhYAigl6RGF+REpNRAB2KsQJWqqATnjElPSwdhUNPz0QIpKyiura+urmkHkEiGS0jII3Dy8fHoK+4tLyypq6hvGAXwnwaHgkVEwcfCIMUgpqOkZmXq4+IVExfk54pTUtHV6DYxmCTWWwOVLxVzuTzeCC+P6rYKhMDhSIxOITCitWZZHIPfKBfobIbbUZVAAcLWmbQynR+KwJ60GWxGDQpGKmM3a8yhS1h9MKjM2wx21TZBwAukA
+path: []
