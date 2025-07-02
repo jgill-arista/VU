@@ -1,0 +1,7 @@
+- name: Configure new loopbacks
+  hosts: spines
+  tasks:
+    - name: delete int lo99
+      arista.eos.eos_config:
+        lines:
+          - no interface Loopback99 

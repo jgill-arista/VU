@@ -1,0 +1,10 @@
+- name: Configure new loopbacks
+  hosts: spines
+  tasks:
+    - name: Configure alternate loopback lo99
+      arista.eos.eos_interfaces:
+        config:
+          - name: "Loopback99"
+            description: "ansible-configured loopback"
+            mtu: "9000"
+        state: merged

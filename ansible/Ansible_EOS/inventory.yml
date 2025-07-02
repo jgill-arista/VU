@@ -1,0 +1,32 @@
+all:
+  vars:
+    ansible_user: arista
+    ansible_network_os: eos
+    ansible_password: arista
+    ansible_connection: httpapi
+    ansible_httpapi_use_ssl: True
+    ansible_httpapi_validate_certs: False
+    ansible_httpapi_port: 443
+# This section will have Ansible connect via the SSH CLI
+#     ansible_connection: network_cli
+#     ansible_user: arista
+#     ansible_network_os: eos
+#     ansible_become: yes
+#     ansible_become_method: enable
+#     ansible_connection: network_cli
+#     ansible_network_os: eos
+  children:
+    spines:
+      hosts:
+        mhd367:
+        mhd368:
+        mhd369:
+    leafs:
+      hosts:
+        mrvp307:
+        mrvp350:
+        mrvp360:
+        mrvp361:     
+    borderleafs:
+      cdv566:
+      cdv584:
