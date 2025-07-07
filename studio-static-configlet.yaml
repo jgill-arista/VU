@@ -1,0 +1,1044 @@
+inputs:
+  configletAssignmentRoots:
+  - f28dc424-646c-45b0-9213-5ea287e5e734
+  - RECONCILE_TREE_KEY
+  configletAssignments:
+  - childAssignmentIds: []
+    configletAssignmentId: 1cac461a-7c4f-41e1-b573-42836640684d
+    configletIds:
+    - RECONCILE_6C720D7A0BBE2C8D4C4A284B5010055F
+    description: ''
+    displayName: poc-vu-vZTX
+    matchPolicy: 1
+    query: device:6C720D7A0BBE2C8D4C4A284B5010055F
+  - childAssignmentIds:
+    - 7b83c4ff-052e-4687-8060-bfc57816dbd6
+    - 0044b60b-9235-47ee-9e9f-07304b8399e0
+    - 169044b7-d923-404c-a73e-f96341f1c473
+    - 8e7ecedd-912e-4631-b150-cf126a194792
+    - e709b1d5-83f1-4239-bf41-530105b0b027
+    - 20d5639f-99d4-4a15-b498-e9c449fca3e0
+    - a21cf859-267d-4fb8-966d-ad632c5cd463
+    - decdc9aa-a44c-46e9-bcf9-ab816f5a2ed9
+    - 68561a11-3d71-4c66-a043-efdbb52722b5
+    - d744905a-c052-481f-9291-ef9d41e53390
+    - 0a02ea8b-db56-4ff2-9d9d-93a7289205a9
+    - c4e8992a-1eee-49b0-a2fe-a1677c1a9f95
+    - 33f87c96-99cf-4639-90df-687c6297f151
+    - 9e86be05-a8d8-49d7-81ee-371c058b858b
+    - 1cac461a-7c4f-41e1-b573-42836640684d
+    configletAssignmentId: RECONCILE_TREE_KEY
+    configletIds: []
+    description: ''
+    displayName: Reconciled Configlets
+    matchPolicy: 1
+    query: device:*
+  - childAssignmentIds: []
+    configletAssignmentId: 0044b60b-9235-47ee-9e9f-07304b8399e0
+    configletIds:
+    - RECONCILE_JPA2320P22Q
+    description: ''
+    displayName: cdv584
+    matchPolicy: 1
+    query: device:JPA2320P22Q
+  - childAssignmentIds: []
+    configletAssignmentId: 169044b7-d923-404c-a73e-f96341f1c473
+    configletIds:
+    - RECONCILE_JPE18220919
+    description: ''
+    displayName: upp429
+    matchPolicy: 1
+    query: device:JPE18220919
+  - childAssignmentIds: []
+    configletAssignmentId: 7b83c4ff-052e-4687-8060-bfc57816dbd6
+    configletIds:
+    - RECONCILE_JMX2321BBG2
+    description: ''
+    displayName: cdv566
+    matchPolicy: 1
+    query: device:JMX2321BBG2
+  - childAssignmentIds: []
+    configletAssignmentId: 20d5639f-99d4-4a15-b498-e9c449fca3e0
+    configletIds:
+    - RECONCILE_JPN2439P0XU
+    description: ''
+    displayName: mhd367
+    matchPolicy: 1
+    query: device:JPN2439P0XU
+  - childAssignmentIds: []
+    configletAssignmentId: 8e7ecedd-912e-4631-b150-cf126a194792
+    configletIds:
+    - RECONCILE_JPE18220931
+    description: ''
+    displayName: upp428
+    matchPolicy: 1
+    query: device:JPE18220931
+  - childAssignmentIds: []
+    configletAssignmentId: a21cf859-267d-4fb8-966d-ad632c5cd463
+    configletIds:
+    - RECONCILE_JPN2439P3J9
+    description: ''
+    displayName: mhd369
+    matchPolicy: 1
+    query: device:JPN2439P3J9
+  - childAssignmentIds: []
+    configletAssignmentId: decdc9aa-a44c-46e9-bcf9-ab816f5a2ed9
+    configletIds:
+    - RECONCILE_JPN2439P4QA
+    description: ''
+    displayName: mhd368
+    matchPolicy: 1
+    query: device:JPN2439P4QA
+  - childAssignmentIds: []
+    configletAssignmentId: e709b1d5-83f1-4239-bf41-530105b0b027
+    configletIds:
+    - RECONCILE_JPE19391306
+    description: ''
+    displayName: ghb284
+    matchPolicy: 1
+    query: device:JPE19391306
+  - childAssignmentIds: []
+    configletAssignmentId: 095a34e2-01de-4132-a2c5-e75e125b3d57
+    configletIds:
+    - 95473ecb-a9b5-46b2-8760-ca361e0afcef
+    - ab4754d6-d0b1-4b51-ba5f-fc36e0defefd
+    - 4dcfd6e3-e140-4898-b0ee-b7e83a98d366
+    description: ''
+    displayName: ''
+    matchPolicy: 2
+    query: device:HBG2403051V
+  - childAssignmentIds: []
+    configletAssignmentId: 33f87c96-99cf-4639-90df-687c6297f151
+    configletIds:
+    - RECONCILE_HBG2403051V
+    description: ''
+    displayName: HBG2403051V
+    matchPolicy: 1
+    query: device:HBG2403051V
+  - childAssignmentIds: []
+    configletAssignmentId: 0a02ea8b-db56-4ff2-9d9d-93a7289205a9
+    configletIds:
+    - RECONCILE_HBG2333015N
+    description: ''
+    displayName: HBG2333015N
+    matchPolicy: 1
+    query: device:HBG2333015N
+  - childAssignmentIds: []
+    configletAssignmentId: c4e8992a-1eee-49b0-a2fe-a1677c1a9f95
+    configletIds:
+    - RECONCILE_HBG2333015T
+    description: ''
+    displayName: HBG2333015T
+    matchPolicy: 1
+    query: device:HBG2333015T
+  - childAssignmentIds: []
+    configletAssignmentId: 9e86be05-a8d8-49d7-81ee-371c058b858b
+    configletIds:
+    - RECONCILE_HBG2403054B
+    description: ''
+    displayName: HBG2403054B
+    matchPolicy: 1
+    query: device:HBG2403054B
+  - childAssignmentIds: []
+    configletAssignmentId: 36309b4c-9b0b-4b35-8bd5-f8f859b11b6b
+    configletIds:
+    - 95473ecb-a9b5-46b2-8760-ca361e0afcef
+    description: ''
+    displayName: ''
+    matchPolicy: 2
+    query: device:JPN2439P0XU
+  - childAssignmentIds: []
+    configletAssignmentId: 5e036488-f925-4030-b5ed-10f1a2d1e7d5
+    configletIds:
+    - 95473ecb-a9b5-46b2-8760-ca361e0afcef
+    description: ''
+    displayName: ''
+    matchPolicy: 2
+    query: device:JPE19391306
+  - childAssignmentIds: []
+    configletAssignmentId: d7fbcb88-7a5c-4410-b74d-ec734c1fbe8e
+    configletIds:
+    - 95473ecb-a9b5-46b2-8760-ca361e0afcef
+    description: ''
+    displayName: ''
+    matchPolicy: 2
+    query: device:JPE20012250
+  - childAssignmentIds: []
+    configletAssignmentId: b91615fe-5f82-4f6e-bb3e-6f696b67f5b3
+    configletIds:
+    - 95473ecb-a9b5-46b2-8760-ca361e0afcef
+    description: ''
+    displayName: ''
+    matchPolicy: 2
+    query: device:JPN2439P4QA
+  - childAssignmentIds: []
+    configletAssignmentId: 5b8ec928-e68f-4825-8561-71e5ea6d3227
+    configletIds:
+    - 95473ecb-a9b5-46b2-8760-ca361e0afcef
+    - ab4754d6-d0b1-4b51-ba5f-fc36e0defefd
+    - 164d9729-0022-4146-be74-3cd3f02f68fa
+    description: ''
+    displayName: ''
+    matchPolicy: 2
+    query: device:HBG2403054B
+  - childAssignmentIds: []
+    configletAssignmentId: f85543f8-d4d2-4562-bf1b-0911512a9251
+    configletIds:
+    - 95473ecb-a9b5-46b2-8760-ca361e0afcef
+    description: ''
+    displayName: ''
+    matchPolicy: 2
+    query: device:JPN2439P3J9
+  - childAssignmentIds: []
+    configletAssignmentId: 68561a11-3d71-4c66-a043-efdbb52722b5
+    configletIds:
+    - RECONCILE_JPE20012250
+    description: ''
+    displayName: ghb285
+    matchPolicy: 1
+    query: device:JPE20012250
+  - childAssignmentIds: []
+    configletAssignmentId: afed4d58-cc5f-49ce-898e-39b36a626506
+    configletIds:
+    - 95473ecb-a9b5-46b2-8760-ca361e0afcef
+    - ab4754d6-d0b1-4b51-ba5f-fc36e0defefd
+    - f1c65be0-53f3-4d3d-90cb-3f344d8b3342
+    description: ''
+    displayName: ''
+    matchPolicy: 2
+    query: device:HBG2333015N
+  - childAssignmentIds: []
+    configletAssignmentId: 6a8f33d6-7aaf-434f-8be5-2fee7fb72a1b
+    configletIds:
+    - 95473ecb-a9b5-46b2-8760-ca361e0afcef
+    - f1c65be0-53f3-4d3d-90cb-3f344d8b3342
+    - ab4754d6-d0b1-4b51-ba5f-fc36e0defefd
+    description: ''
+    displayName: ''
+    matchPolicy: 2
+    query: device:HBG2333015T
+  - childAssignmentIds: []
+    configletAssignmentId: 8f0b020b-518a-4b6f-a67e-2a1de09b43e0
+    configletIds:
+    - 95473ecb-a9b5-46b2-8760-ca361e0afcef
+    - 0cbce207-cd19-4181-8f66-7d0f9f71969c
+    description: ''
+    displayName: ''
+    matchPolicy: 2
+    query: device:JMX2321BBG2
+  - childAssignmentIds: []
+    configletAssignmentId: 94035a42-7526-46d2-8f23-ee2a976d1e7e
+    configletIds: []
+    description: ''
+    displayName: ''
+    matchPolicy: 2
+    query: device:JPE18220931
+  - childAssignmentIds: []
+    configletAssignmentId: e7260e0c-f42f-4ab5-9d9e-ff532eb5f696
+    configletIds: []
+    description: ''
+    displayName: ''
+    matchPolicy: 2
+    query: device:JPE18220919
+  - childAssignmentIds: []
+    configletAssignmentId: eb81cd56-fb72-4774-b93a-b56aebcdae5f
+    configletIds:
+    - 95473ecb-a9b5-46b2-8760-ca361e0afcef
+    - 0cbce207-cd19-4181-8f66-7d0f9f71969c
+    description: ''
+    displayName: ''
+    matchPolicy: 2
+    query: device:JPA2320P22Q
+  - childAssignmentIds: []
+    configletAssignmentId: d744905a-c052-481f-9291-ef9d41e53390
+    configletIds:
+    - RECONCILE_3B43374FB1F4982B5BACA7BFE63D129C
+    description: ''
+    displayName: vupoc-cloudeos-1
+    matchPolicy: 1
+    query: device:3B43374FB1F4982B5BACA7BFE63D129C
+  - childAssignmentIds:
+    - 8f0b020b-518a-4b6f-a67e-2a1de09b43e0
+    - eb81cd56-fb72-4774-b93a-b56aebcdae5f
+    - 5e036488-f925-4030-b5ed-10f1a2d1e7d5
+    - d7fbcb88-7a5c-4410-b74d-ec734c1fbe8e
+    - 36309b4c-9b0b-4b35-8bd5-f8f859b11b6b
+    - b91615fe-5f82-4f6e-bb3e-6f696b67f5b3
+    - f85543f8-d4d2-4562-bf1b-0911512a9251
+    - afed4d58-cc5f-49ce-898e-39b36a626506
+    - 095a34e2-01de-4132-a2c5-e75e125b3d57
+    - 5b8ec928-e68f-4825-8561-71e5ea6d3227
+    - 94035a42-7526-46d2-8f23-ee2a976d1e7e
+    - e7260e0c-f42f-4ab5-9d9e-ff532eb5f696
+    - 6a8f33d6-7aaf-434f-8be5-2fee7fb72a1b
+    configletAssignmentId: f28dc424-646c-45b0-9213-5ea287e5e734
+    configletIds:
+    - 0d900197-926a-4675-954c-d1db3dbc0df6
+    - 71666779-1c7b-4795-b11c-8b3772b7b79b
+    - e23dc7bc-4bed-4057-84e2-a1217a6c5d1b
+    - ecdc5c08-bd7b-4981-b05e-6faf69ff2359
+    description: ''
+    displayName: ''
+    matchPolicy: 2
+    query: all_devices:VU-POC
+  configlets:
+  - body: 'interface Ethernet1/1
+
+      no description
+
+      interface Ethernet2/1
+
+      no description'
+    configletId: avd-JPN2439P0XU
+    description: Configuration created and uploaded by AVD for mhd367-spine1
+    digest: 004f163eca345cf6023ec8916686acba013d426ca29611a99da0cd7196fe67d6
+    displayName: AVD_mhd367-spine1
+  - body: "aaa authentication policy local allow-nopassword-remote-login\nmanagement\
+      \ api http-commands\n   no shutdown\nprompt %H.%D{%H:%M:%S}%P\nalias cc clear\
+      \ counters\nalias cp clear platform trident counters\nalias senz show interface\
+      \ counter error | nz\nalias snz show interface counter | nz\nalias sqnz show\
+      \ interface counter queue | nz\nalias srnz show interface counter rate | nz\n\
+      daemon TerminAttr\n   exec /usr/bin/TerminAttr -cvaddr=apiserver.arista.io:443\
+      \ -cvtargetconfigs arista/traffic-policy -cvauth=token-secure,/tmp/cv-onboarding-token\
+      \ -disableaaa -smashexcludes=ale,flexCounter,hardware,kni,pulse,strata -ingestexclude=/Sysdb/cell/1/agent,/Sysdb/cell/2/agent\
+      \ -taillogs -sflow -sflowaddr=127.0.0.1:6343\n   no shutdown\nhostname mrvp350-leaf1b\n\
+      ip name-server vrf default 172.22.60.20\ndns domain sjc.aristanetworks.com\n\
+      clock timezone PST8PDT\ninterface Port-Channel1\n   switchport mode trunk\n\
+      \   mlag 1\ninterface Ethernet1\n   description poc-srv-45:vmnic2\n   channel-group\
+      \ 1 mode active\ninterface Management1\n   ip address 172.28.138.216/20\nip\
+      \ route 10.80.0.0/12 172.28.128.1\nip route 10.224.0.0/12 172.28.128.1\nip route\
+      \ 10.240.0.0/12 172.28.128.1\nip route 10.248.0.0/14 172.28.128.1\nip route\
+      \ 34.0.0.0/8 172.28.128.1\nip route 34.30.62.197/32 172.28.128.1\nip route 34.136.239.116/32\
+      \ 172.28.128.1\nip route 35.0.0.0/8 172.28.128.1\nip route 35.192.157.156/32\
+      \ 172.28.128.1\nip route 172.16.0.0/12 172.28.128.1\nntp server poc-ntp.sjc.aristanetworks.com"
+    configletId: RECONCILE_HBG2333015N
+    description: ''
+    digest: b6711f3d923827837fff46416da2fa43ff2e0a93aa8ac24f79d45601133bbef2
+    displayName: Reconcile mrvp350-leaf1b 2025-06-25T16:44:54.770Z
+  - body: "aaa root secret sha512 $6$qCr1fII.alsXfStM$iKHf4RTi3NzR2K9dEroDmjALKjPkl.l6aEWhJQUa7/BZxFT3gLKt1yKYMO/pnPkxpXKFCDtrw25Uz6E5y4ohG0\n\
+      aaa authentication policy local allow-nopassword-remote-login\nmanagement api\
+      \ http-commands\n   no shutdown\nprompt %H.%D{%H:%M:%S}%P\nalias cc clear counters\n\
+      alias cp clear platform trident counters\nalias senz show interface counter\
+      \ error | nz\nalias snz show interface counter | nz\nalias sqnz show interface\
+      \ counter queue | nz\nalias srnz show interface counter rate | nz\ndaemon TerminAttr\n\
+      \   exec /usr/bin/TerminAttr -cvaddr=apiserver.arista.io:443 -cvtargetconfigs\
+      \ arista/traffic-policy -cvauth=token-secure,/tmp/cv-onboarding-token -disableaaa\
+      \ -smashexcludes=ale,flexCounter,hardware,kni,pulse,strata -ingestexclude=/Sysdb/cell/1/agent,/Sysdb/cell/2/agent\
+      \ -taillogs -sflow -sflowaddr=127.0.0.1:6343\n   no shutdown\nhostname mrvp360-leaf2a\n\
+      ip name-server vrf default 172.22.60.20\ndns domain sjc.aristanetworks.com\n\
+      clock timezone PST8PDT\ninterface Port-Channel1\n   switchport mode trunk\n\
+      \   mlag 1\ninterface Ethernet52/1\n   description poc-srv-49:vmnic3\n   channel-group\
+      \ 1 mode active\ninterface Management1\n   ip address 172.28.140.43/20\nip route\
+      \ 10.80.0.0/12 172.28.128.1\nip route 10.224.0.0/11 172.28.128.1\nip route 10.224.0.0/12\
+      \ 172.28.128.1\nip route 10.240.0.0/12 172.28.128.1\nip route 10.248.0.0/14\
+      \ 172.28.128.1\nip route 34.0.0.0/8 172.28.128.1\nip route 34.30.62.197/32 172.28.128.1\n\
+      ip route 34.136.239.116/32 172.28.128.1\nip route 35.0.0.0/8 172.28.128.1\n\
+      ip route 35.192.157.156/32 172.28.128.1\nip route 172.16.0.0/12 172.28.128.1\n\
+      ntp server poc-ntp.sjc.aristanetworks.com"
+    configletId: RECONCILE_HBG2403051V
+    description: ''
+    digest: b80d2489594a081e69457f30be71e31ac9be625e843b0cb2e772d55a36c537c4
+    displayName: Reconcile mrvp360-leaf2a 2025-06-25T16:44:55.177Z
+  - body: "aaa root secret sha512 $6$kaw7Y.W6c1xNKTPn$Ox32zR75JhOjz6UVCC/zpb6IM7U4OzhM.8luTKGSNAnKceNJJ02h1zjQiRE/2CHbBHpzdBEMfHPNvbwa/.q.s1\n\
+      aaa authentication policy local allow-nopassword-remote-login\nmanagement api\
+      \ http-commands\n   no shutdown\nprompt %H.%D{%H:%M:%S}%P\nalias cc clear counters\n\
+      alias cp clear platform trident counters\nalias senz show interface counter\
+      \ error | nz\nalias snz show interface counter | nz\nalias sqnz show interface\
+      \ counter queue | nz\nalias srnz show interface counter rate | nz\ndaemon TerminAttr\n\
+      \   exec /usr/bin/TerminAttr -cvaddr=apiserver.arista.io:443 -cvtargetconfigs\
+      \ arista/traffic-policy -cvauth=token-secure,/tmp/cv-onboarding-token -disableaaa\
+      \ -smashexcludes=ale,flexCounter,hardware,kni,pulse,strata -ingestexclude=/Sysdb/cell/1/agent,/Sysdb/cell/2/agent\
+      \ -taillogs -sflow -sflowaddr=127.0.0.1:6343\n   no shutdown\nhostname mrvp361-leaf2b\n\
+      ip name-server vrf default 172.22.60.20\ndns domain sjc.aristanetworks.com\n\
+      clock timezone PST8PDT\ninterface Port-Channel1\n   switchport mode trunk\n\
+      \   mlag 1\ninterface Ethernet52/1\n   description poc-srv-49:vmnic2\n   channel-group\
+      \ 1 mode active\ninterface Management1\n   ip address 172.28.140.44/20\nip route\
+      \ 10.80.0.0/12 172.28.128.1\nip route 10.224.0.0/11 172.28.128.1\nip route 10.224.0.0/12\
+      \ 172.28.128.1\nip route 10.240.0.0/12 172.28.128.1\nip route 10.248.0.0/14\
+      \ 172.28.128.1\nip route 34.0.0.0/8 172.28.128.1\nip route 34.30.62.197/32 172.28.128.1\n\
+      ip route 34.136.239.116/32 172.28.128.1\nip route 35.0.0.0/8 172.28.128.1\n\
+      ip route 35.192.157.156/32 172.28.128.1\nip route 172.16.0.0/12 172.28.128.1\n\
+      ntp server poc-ntp.sjc.aristanetworks.com"
+    configletId: RECONCILE_HBG2403054B
+    description: ''
+    digest: 104b996243bf1644cf8961574285fab67340443d25dd943e9d05fb4f0c4aa822
+    displayName: Reconcile mrvp361-leaf2b 2025-06-25T16:44:55.483Z
+  - body: "aaa root secret sha512 $6$n/S79216LmMrbF5T$dXVMZELpdQhhuBPCQROt2mR1oTKOLrbe4tWQwLVmvR.yfRiasUNv2Hd9Vp2jf/jW9v.D9G39f.gszq5slhS6T.\n\
+      aaa authentication policy local allow-nopassword-remote-login\nmanagement api\
+      \ http-commands\n   no shutdown\nprompt %H.%D{%H:%M:%S}%R%P\nalias agents bash\
+      \ ls -lrt /var/log/agents/\nalias cc clear counters\nalias core bash ls -lrt\
+      \ /var/core/\nalias cp clear platform trident counters\nalias log bash sudo\
+      \ tail -f /var/log/messages\nalias ls bash ls -lrt /var/log/agents\nalias senz\
+      \ show interface counter error | nz\nalias shmc show int | awk '/^[A-Z]/ { intf\
+      \ = \\$1 } /, address is/ { print intf, \\$6 }'\nalias snz show interface counter\
+      \ | nz\nalias spd show port-channel %1 detail all\nalias sqnz show interface\
+      \ counter queue | nz\nalias srnz show interface counter rate | nz\nalias top\
+      \ show proc top\ndaemon TerminAttr\n   exec /usr/bin/TerminAttr -smashexcludes=ale,flexCounter,hardware,kni,pulse,strata\
+      \ -cvaddr=apiserver.arista.io:443 -cvtargetconfigs arista/traffic-policy -cvauth=token-secure,/tmp/cv-onboarding-token\
+      \ -taillogs\n   no shutdown\ntransceiver qsfp default-mode 4x10G\nlogging format\
+      \ sequence-numbers\nhostname cdv566-border_LF1a\nip name-server vrf default\
+      \ 172.22.60.20\ndns domain sjc.aristanetworks.com\nclock timezone PST8PDT\n\
+      interface Management1\n   ip address 172.28.138.33/20\nip route 10.80.0.0/12\
+      \ 172.28.128.1\nip route 10.224.0.0/11 172.28.128.1\nip route 10.240.0.0/12\
+      \ 172.28.128.1\nip route 10.248.0.0/14 172.28.128.1\nip route 34.30.62.197/32\
+      \ 172.28.128.1\nip route 34.67.65.165/32 172.28.128.1\nip route 34.136.239.116/32\
+      \ 172.28.128.1\nip route 35.192.157.156/32 172.28.128.1\nip route 172.16.0.0/12\
+      \ 172.28.128.1\nntp server 172.22.60.22"
+    configletId: RECONCILE_JMX2321BBG2
+    description: ''
+    digest: 927fbea7305754f1e306d96b7c2489aea9e916d604bd76dbc3e424e20dc1e59b
+    displayName: Reconcile cdv566 2025-06-09T21:40:34.000Z
+  - body: "aaa root secret sha512 $6$tfBiYs3EPG/Wmkpd$BOCBAiTK9ZRVI4Ll8599QDCPQbypyCioSv4RrdxXfKHh4NRIBPoLHWevZU.Mj18Tw13mgJJWJBY5mPwrute.B/\n\
+      aaa authentication policy local allow-nopassword-remote-login\nusername admin\
+      \ privilege 15 role network-admin nopassword\nusername cvpadmin privilege 15\
+      \ secret sha512 $6$Pd9.uX83m8EvgiDB$.XW4Huxa4AaYgchE86J8Z8vT6k6baCbEg3BOk5bdCFFvESCNFVX.u0s72eG3NG9y.X6aLEFOcwxwf/BsMBnj/1\n\
+      management api http-commands\n   no shutdown\nprompt %H.%D{%H:%M:%S}%P\nalias\
+      \ cc clear counters\nalias senz show interface counter error | nz\nalias shmc\
+      \ show int | awk '/^[A-Z]/ { intf = $1 } /, address is/ { print intf, $6 }'\n\
+      alias snz show interface counter | nz\nalias spc show port-channel %1 detail\
+      \ all\nalias sqnz show interface counter queue | nz\nalias srnz show interface\
+      \ counter rate | nz\ndaemon TerminAttr\n   exec /usr/bin/TerminAttr -cvaddr=apiserver.arista.io:443\
+      \ -cvauth=token-secure,/tmp/cv-onboarding-token -disableaaa -smashexcludes=ale,flexCounter,hardware,kni,pulse,strata\
+      \ -cvtargetconfigs arista/traffic-policy -ingestexclude=/Sysdb/cell/1/agent,/Sysdb/cell/2/agent\
+      \ -taillogs -sflow -sflowaddr=127.0.0.1:6343\n   no shutdown\nlogging format\
+      \ timestamp traditional year timezone\nhostname cdv584-border_LF1b\nip name-server\
+      \ vrf default 172.22.60.20\ndns domain sjc.aristanetworks.com\nsnmp-server community\
+      \ public ro\nclock timezone US/Pacific\naaa authorization exec default local\n\
+      interface Management1\n   ip address 172.28.138.116/20\nip route 10.80.0.0/12\
+      \ 172.28.128.1\nip route 10.81.0.0/16 172.28.128.1\nip route 10.95.0.0/16 172.28.128.1\n\
+      ip route 10.240.0.0/13 172.28.128.1\nip route 34.0.0.0/8 172.28.128.1\nip route\
+      \ 34.30.62.197/32 172.28.128.1\nip route 34.136.239.116/32 172.28.128.1\nip\
+      \ route 35.0.0.0/8 172.28.128.1\nip route 35.192.157.156/32 172.28.128.1\nip\
+      \ route 172.16.0.0/12 172.28.128.1\nntp server poc-ntp.sjc.aristanetworks.com"
+    configletId: RECONCILE_JPA2320P22Q
+    description: ''
+    digest: 3476ab8d6f0f2fa63c472194820101f72a95be580a12b4bb7f0f5ebe9cf08009
+    displayName: Reconcile cdv584 2025-06-09T21:40:35.728Z
+  - body: "aaa root secret sha512 $6$eVXPIYL7kTNXh/S3$fiJwR2Kj3DJB9sfrUYEKvqSeD982LptaOfEOGnJD2VLBb4Tj9CvAvI4PKRv0Oo4MdWJ6mCWkN3XNU0pbG0gVV.\n\
+      aaa authentication policy local allow-nopassword-remote-login\nusername admin\
+      \ privilege 15 role network-admin nopassword\nmanagement api http-commands\n\
+      \   no shutdown\nprompt %H.%D{%H:%M:%S}%P\nalias cc clear counters\nalias cpc\
+      \ clear platform fap counters\nalias sa show active\nalias senz show interface\
+      \ counter error | nz\nalias shmc show int | awk '/^[A-Z]/ { intf = $1 } /, address\
+      \ is/ { print intf, $6 }'\nalias snz show interface counter | nz\nalias spc\
+      \ show port-channel %1 detail all\nalias sqnz show interface counter queue |\
+      \ nz\nalias srnz show interface counter rate | nz\ndaemon TerminAttr\n   exec\
+      \ /usr/bin/TerminAttr -cvaddr=apiserver.arista.io:443 -cvauth=token-secure,/tmp/cv-onboarding-token\
+      \ -disableaaa -smashexcludes=ale,flexCounter,hardware,kni,pulse,strata -ingestexclude=/Sysdb/cell/1/agent,/Sysdb/cell/2/agent\
+      \ -taillogs -sflow -sflowaddr=127.0.0.1:6343\n   no shutdown\nlogging format\
+      \ timestamp traditional year timezone\nhostname ghb284-wan\nip name-server vrf\
+      \ default 172.22.60.20\ndns domain sjc.aristanetworks.com\nsnmp-server community\
+      \ public ro\nclock timezone US/Pacific\nbanner login\n  ____            _  \
+      \          _        __  ____   ___   ____\n / ___| _   _ ___| |_ ___  ___| |_\
+      \     / / |  _ \\ / _ \\ / ___|\n \\___ \\| | | / __| __/ _ \\/ __| __|   /\
+      \ /  | |_) | | | | |\n  ___) | |_| \\__ \\ ||  __/\\__ \\ |_   / /   |  __/|\
+      \ |_| | |___\n |____/ \\__, |___/\\__\\___||___/\\__| /_/    |_|    \\___/ \\\
+      ____|\n |  _ \\ |___/_   _(_) ___ ___\n | | | |/ _ \\ \\ / / |/ __/ _ \\.\n\
+      \ | |_| |  __/\\ V /| | (_|  __/\n |____/ \\___| \\_/ |_|\\___\\___|\n\nThis\
+      \ device is currently in use. If you need to access this device,\nyou must contact\
+      \ its current owner.\n\nOwner:        None\nPool:         LabTracker/POC\nReservation:\
+      \  None\nEOF\naaa authorization exec default local\ninterface Management1\n\
+      \   ip address 172.28.128.98/20\nip routing\nip route 10.80.0.0/12 172.28.128.1\n\
+      ip route 10.224.0.0/11 172.28.128.1\nip route 34.0.0.0/8 172.28.128.1\nip route\
+      \ 34.30.62.197/32 172.28.128.1\nip route 34.136.239.116/32 172.28.128.1\nip\
+      \ route 35.0.0.0/8 172.28.128.1\nip route 35.192.157.156/32 172.28.128.1\nip\
+      \ route 172.16.0.0/12 172.28.128.1\nntp server poc-ntp.sjc.aristanetworks.com"
+    configletId: RECONCILE_JPE19391306
+    description: ''
+    digest: 967fc688883918117fa8bab0b919e86be93c28b9e56d80adde76a45ade351e77
+    displayName: Reconcile ghb284 2025-06-10T06:13:35.140Z
+  - body: "aaa root secret sha512 $6$DZyTcC.K7XlHuwS4$bsPQdTVUToOtET5HMDivAZBM1Ee2sckeaLd7W9KBWY1GCPRpan7waqPR89EGFlEA04QMtt9UgvZAQD4QYo6z4.\n\
+      aaa authentication policy local allow-nopassword-remote-login\nusername admin\
+      \ privilege 15 role network-admin nopassword\nusername cvpadmin privilege 15\
+      \ secret sha512 $6$S.Nc.xIjFzUtKUj8$l2uc4dgWdwQ3/sti1ga.e9nKPD2H9OvHvupBxNJExzdhsEfqJuhcoE2won0e54J10BaGtKU4MrFHibJS4DOg41\n\
+      management api http-commands\n   no shutdown\nprompt %H.%D{%H:%M:%S}%P\nalias\
+      \ cc clear counters\nalias cpc clear platform trident counters\nalias sa show\
+      \ active\nalias senz show interface counter error | nz\nalias shmc show int\
+      \ | awk '/^[A-Z]/ { intf = $1 } /, address is/ { print intf, $6 }'\nalias snz\
+      \ show interface counter | nz\nalias spc show port-channel %1 detail all\nalias\
+      \ sqnz show interface counter queue | nz\nalias srnz show interface counter\
+      \ rate | nz\ndaemon TerminAttr\n   exec /usr/bin/TerminAttr -cvaddr=apiserver.arista.io:443\
+      \ -cvauth=token-secure,/tmp/cv-onboarding-token -disableaaa -smashexcludes=ale,flexCounter,hardware,kni,pulse,strata\
+      \ -ingestexclude=/Sysdb/cell/1/agent,/Sysdb/cell/2/agent -taillogs -sflow -sflowaddr=127.0.0.1:6343\n\
+      \   no shutdown\nlogging format timestamp traditional year timezone\nhostname\
+      \ mhd367-spine1\nip name-server vrf default 172.22.60.20\ndns domain sjc.aristanetworks.com\n\
+      snmp-server community public ro\nclock timezone US/Pacific\n\naaa authorization\
+      \ exec default local\ninterface Management1\n   ip address 172.28.140.155/20\n\
+      ip route 10.80.0.0/12 172.28.128.1\nip route 10.224.0.0/11 172.28.128.1\nip\
+      \ route 34.0.0.0/8 172.28.128.1\nip route 34.30.62.197/32 172.28.128.1\nip route\
+      \ 34.136.239.116/32 172.28.128.1\nip route 35.0.0.0/8 172.28.128.1\nip route\
+      \ 35.192.157.156/32 172.28.128.1\nip route 172.16.0.0/12 172.28.128.1\nntp server\
+      \ poc-ntp.sjc.aristanetworks.com"
+    configletId: RECONCILE_JPN2439P0XU
+    description: ''
+    digest: 61cd16901cf4944c635c0ef871abc91c7662aa50d3966af2f2dc16a46557c2a3
+    displayName: Reconcile mhd367 2025-06-09T21:40:45.762Z
+  - body: "aaa root secret sha512 $6$eVXPIYL7kTNXh/S3$fiJwR2Kj3DJB9sfrUYEKvqSeD982LptaOfEOGnJD2VLBb4Tj9CvAvI4PKRv0Oo4MdWJ6mCWkN3XNU0pbG0gVV.\n\
+      aaa authentication policy local allow-nopassword-remote-login\nusername admin\
+      \ privilege 15 role network-admin nopassword\nusername cvpadmin privilege 15\
+      \ secret sha512 $6$BBReVir6uQjXVJXX$LWunhoVbSvmf8GdPlOMChsmJ6PK/fIbeZyuBag2aN48LUm2NXKonJKUBwlhNnuadV04Vmaspb5rRFMJR.4/RZ.\n\
+      management api http-commands\n   no shutdown\nprompt %H.%D{%H:%M:%S}%P\nalias\
+      \ cc clear counters\nalias cpc clear platform fap counters\nalias sa show active\n\
+      alias senz show interface counter error | nz\nalias shmc show int | awk '/^[A-Z]/\
+      \ { intf = $1 } /, address is/ { print intf, $6 }'\nalias snz show interface\
+      \ counter | nz\nalias spc show port-channel %1 detail all\nalias sqnz show interface\
+      \ counter queue | nz\nalias srnz show interface counter rate | nz\ndaemon TerminAttr\n\
+      \   exec /usr/bin/TerminAttr -cvaddr=apiserver.arista.io:443 -cvauth=token-secure,/tmp/cv-onboarding-token\
+      \ -disableaaa -smashexcludes=ale,flexCounter,hardware,kni,pulse,strata -ingestexclude=/Sysdb/cell/1/agent,/Sysdb/cell/2/agent\
+      \ -taillogs -sflow -sflowaddr=127.0.0.1:6343\n   no shutdown\nlogging format\
+      \ timestamp traditional year timezone\nhostname ghb285-internet\nip name-server\
+      \ vrf default 172.22.60.20\ndns domain sjc.aristanetworks.com\nsnmp-server community\
+      \ public ro\nclock timezone US/Pacific\naaa authorization exec default local\n\
+      interface Management1\n   ip address 172.28.129.112/20\nip route 10.80.0.0/12\
+      \ 172.28.128.1\nip route 10.224.0.0/11 172.28.128.1\nip route 34.0.0.0/8 172.28.128.1\n\
+      ip route 34.30.62.197/32 172.28.128.1\nip route 34.136.239.116/32 172.28.128.1\n\
+      ip route 35.0.0.0/8 172.28.128.1\nip route 35.192.157.156/32 172.28.128.1\n\
+      ip route 172.16.0.0/12 172.28.128.1\nntp server poc-ntp.sjc.aristanetworks.com"
+    configletId: RECONCILE_JPE20012250
+    description: ''
+    digest: 3932b538569881886498fd5a32c05e45a080e91d700c12388b7fb65d1e391600
+    displayName: Reconcile ghb285 2025-06-11T21:20:41.526Z
+  - body: "aaa root secret sha512 $6$pkR9a9NPfWE2nQ8H$fzQeDbbK7uh5NBtcGdsvf6VD3dTYGe6tLMuepZqoSJ80b0yVTeTJojT4bEJ51QEXqZlpzP17N9rYxG96x1LLW.\n\
+      aaa authentication policy local allow-nopassword-remote-login\nusername admin\
+      \ privilege 15 role network-admin nopassword\nusername cvpadmin privilege 15\
+      \ secret sha512 $6$S.Nc.xIjFzUtKUj8$l2uc4dgWdwQ3/sti1ga.e9nKPD2H9OvHvupBxNJExzdhsEfqJuhcoE2won0e54J10BaGtKU4MrFHibJS4DOg41\n\
+      management api http-commands\n   no shutdown\nprompt %H.%D{%H:%M:%S}%P\nalias\
+      \ cc clear counters\nalias cpc clear platform trident counters\nalias sa show\
+      \ active\nalias senz show interface counter error | nz\nalias shmc show int\
+      \ | awk '/^[A-Z]/ { intf = $1 } /, address is/ { print intf, $6 }'\nalias snz\
+      \ show interface counter | nz\nalias spc show port-channel %1 detail all\nalias\
+      \ sqnz show interface counter queue | nz\nalias srnz show interface counter\
+      \ rate | nz\ndaemon TerminAttr\n   exec /usr/bin/TerminAttr -cvaddr=apiserver.arista.io:443\
+      \ -cvauth=token-secure,/tmp/cv-onboarding-token -disableaaa -smashexcludes=ale,flexCounter,hardware,kni,pulse,strata\
+      \ -ingestexclude=/Sysdb/cell/1/agent,/Sysdb/cell/2/agent -taillogs -sflow -sflowaddr=127.0.0.1:6343\n\
+      \   no shutdown\nlogging format timestamp traditional year timezone\nhostname\
+      \ mhd368-spine2\nip name-server vrf default 172.22.60.20\ndns domain sjc.aristanetworks.com\n\
+      snmp-server community public ro\nclock timezone US/Pacific\n\naaa authorization\
+      \ exec default local\ninterface Management1\n   ip address 172.28.140.156/20\n\
+      ip route 10.80.0.0/12 172.28.128.1\nip route 10.224.0.0/11 172.28.128.1\nip\
+      \ route 34.0.0.0/8 172.28.128.1\nip route 34.30.62.197/32 172.28.128.1\nip route\
+      \ 34.136.239.116/32 172.28.128.1\nip route 35.0.0.0/8 172.28.128.1\nip route\
+      \ 35.192.157.156/32 172.28.128.1\nip route 172.16.0.0/12 172.28.128.1\nntp server\
+      \ poc-ntp.sjc.aristanetworks.com"
+    configletId: RECONCILE_JPN2439P4QA
+    description: ''
+    digest: a50b1ac0035dbec9d1ebc8647aba952b74ed45a11baac5bdac4d4758675efdab
+    displayName: Reconcile mhd368 2025-06-09T21:40:49.441Z
+  - body: "aaa root secret sha512 $6$BFMMik23NwNzSYJj$vDEq/2kkV5TJSES1ivyU8wVekbhU1KXnFWm37cx99/ue/98lp.qT39Mytr1B/bD5OBlEhnIGm9.6dftECPXN40\n\
+      aaa authentication policy local allow-nopassword-remote-login\nusername admin\
+      \ privilege 15 role network-admin nopassword\nusername cvpadmin privilege 15\
+      \ secret sha512 $6$S.Nc.xIjFzUtKUj8$l2uc4dgWdwQ3/sti1ga.e9nKPD2H9OvHvupBxNJExzdhsEfqJuhcoE2won0e54J10BaGtKU4MrFHibJS4DOg41\n\
+      management api http-commands\n   no shutdown\nprompt %H.%D{%H:%M:%S}%P\nalias\
+      \ cc clear counters\nalias cpc clear platform trident counters\nalias sa show\
+      \ active\nalias senz show interface counter error | nz\nalias shmc show int\
+      \ | awk '/^[A-Z]/ { intf = $1 } /, address is/ { print intf, $6 }'\nalias snz\
+      \ show interface counter | nz\nalias spc show port-channel %1 detail all\nalias\
+      \ sqnz show interface counter queue | nz\nalias srnz show interface counter\
+      \ rate | nz\ndaemon TerminAttr\n   exec /usr/bin/TerminAttr -cvaddr=apiserver.arista.io:443\
+      \ -cvauth=token-secure,/tmp/cv-onboarding-token -disableaaa -smashexcludes=ale,flexCounter,hardware,kni,pulse,strata\
+      \ -ingestexclude=/Sysdb/cell/1/agent,/Sysdb/cell/2/agent -taillogs -sflow -sflowaddr=127.0.0.1:6343\n\
+      \   no shutdown\nlogging format timestamp traditional year timezone\nhostname\
+      \ mhd369-spine3\nip name-server vrf default 172.22.60.20\ndns domain sjc.aristanetworks.com\n\
+      snmp-server community public ro\nclock timezone US/Pacific\n\naaa authorization\
+      \ exec default local\ninterface Management1\n   ip address 172.28.140.157/20\n\
+      ip route 10.80.0.0/12 172.28.128.1\nip route 10.224.0.0/11 172.28.128.1\nip\
+      \ route 34.0.0.0/8 172.28.128.1\nip route 34.30.62.197/32 172.28.128.1\nip route\
+      \ 34.136.239.116/32 172.28.128.1\nip route 35.0.0.0/8 172.28.128.1\nip route\
+      \ 35.192.157.156/32 172.28.128.1\nip route 172.16.0.0/12 172.28.128.1\nntp server\
+      \ poc-ntp.sjc.aristanetworks.com"
+    configletId: RECONCILE_JPN2439P3J9
+    description: ''
+    digest: 874caaa18c1a51e32822ec98925c046439c73d07fe7b2344bcb1102d5c329492
+    displayName: Reconcile mhd369 2025-06-09T21:40:47.770Z
+  - body: "aaa authentication policy local allow-nopassword-remote-login\nusername\
+      \ admin privilege 15 role network-admin nopassword\nusername williwu privilege\
+      \ 15 role network-admin secret sha512 $6$To5LluPLEW.1Yme7$fK9MT3UCIl4nVqcFqvmOd6v9BW9oV8p3sb2.h6guht7KxThnwpO.OpYjE0BBMoj6jrACa4irohEJWqzDZlU5Q.\n\
+      prompt %H.%D{%H:%M:%S}%P\nterminal length 60\nalias cc clear counters\nalias\
+      \ ls bash ls -lrt /var/log/agents\nalias senz show interface counter error |\
+      \ nz\nalias shmc show int | awk '/^[A-Z]/ { intf = $1 } /, address is/ { print\
+      \ intf, $6 }'\nalias snz show interface counter | nz\nalias spd show port-channel\
+      \ %1 detail all\nalias sqnz show interface counter queue | nz\nalias srnz show\
+      \ interface counter rate | nz\ndaemon TerminAttr\n   exec /usr/bin/TerminAttr\
+      \ -smashexcludes=ale,flexCounter,hardware,kni,pulse,strata -cvaddr=apiserver.arista.io:443\
+      \ -cvauth=token-secure,/tmp/cv-onboarding-token -cvvrf=management -taillogs\n\
+      \   no shutdown\nvlan internal order ascending range 4020 4090\nload-interval\
+      \ default 5\ntransceiver qsfp default-mode 4x10G\nhostname Core3-cmp348\nip\
+      \ name-server vrf management 172.22.60.20\ndns domain sjc.aristanetworks.com\n\
+      clock timezone US/Pacific\nvrf instance management\nmanagement api http-commands\n\
+      \   protocol http\n   no shutdown\n   vrf management\n      no shutdown\naaa\
+      \ authorization exec default local\ninterface Management0\n   vrf management\n\
+      \   ip address 172.28.138.95/20\ninterface Management1/1\n   ip address 172.28.138.96/20\n\
+      interface Management2/1\n   ip address 172.28.138.97/20\nno ip routing vrf management\n\
+      ip route vrf management 0.0.0.0/0 172.28.128.1\nntp server vrf management poc-ntp.sjc.aristanetworks.com"
+    configletId: RECONCILE_HNN21405500
+    description: ''
+    digest: 2e6d5242a2aac2bdb408a3251abe44a2ed698856e3701264483e8274712d51da
+    displayName: Reconcile Core3-cmp348 2024-08-05T22:34:36.685Z
+  - body: "aaa authentication policy local allow-nopassword-remote-login\nusername\
+      \ admin privilege 15 role network-admin nopassword\nusername cvpadmin privilege\
+      \ 15 secret sha512 $6$gHBJN.nkHhz.ngt.$Rz/r6b1wbFL2Vgq3aUPWHOU6763/AvglrXhjTuj80gbRnV8HLKZ2jZtCLrfCBzJJP2U69sJxM5d2AV3qGsZWA.\n\
+      management api http-commands\n   no shutdown\nprompt %H.%D{%H:%M:%S}%P\nalias\
+      \ cc clear counters\nalias cpc clear platform trident counters\nalias sa show\
+      \ active\nalias senz show interface counter error | nz\nalias shmc show int\
+      \ | awk '/^[A-Z]/ { intf = $1 } /, address is/ { print intf, $6 }'\nalias snz\
+      \ show interface counter | nz\nalias spc show port-channel %1 detail all\nalias\
+      \ sqnz show interface counter queue | nz\nalias srnz show interface counter\
+      \ rate | nz\ndaemon TerminAttr\n   exec /usr/bin/TerminAttr -cvaddr=apiserver.arista.io:443\
+      \ -cvtargetconfigs arista/traffic-policy -cvauth=token-secure,/tmp/cv-onboarding-token\
+      \ -disableaaa -smashexcludes=ale,flexCounter,hardware,kni,pulse,strata -ingestexclude=/Sysdb/cell/1/agent,/Sysdb/cell/2/agent\
+      \ -taillogs -sflow -sflowaddr=127.0.0.1:6343\n   no shutdown\nhostname mrvp307-leaf1a\n\
+      ip name-server vrf default 172.22.60.20\ndns domain sjc.aristanetworks.com\n\
+      snmp-server community public ro\nclock timezone US/Pacific\naaa authorization\
+      \ exec default local\ninterface Port-Channel1\n   switchport mode trunk\n  \
+      \ mlag 1\ninterface Ethernet1\n   description poc-srv-45:vmnic3\n   channel-group\
+      \ 1 mode active\ninterface Management1\n   ip address 172.28.138.88/20\nip route\
+      \ 10.80.0.0/12 172.28.128.1\nip route 10.224.0.0/11 172.28.128.1\nip route 34.0.0.0/8\
+      \ 172.28.128.1\nip route 34.30.62.197/32 172.28.128.1\nip route 34.136.239.116/32\
+      \ 172.28.128.1\nip route 35.0.0.0/8 172.28.128.1\nip route 35.192.157.156/32\
+      \ 172.28.128.1\nip route 172.16.0.0/12 172.28.128.1\nntp server poc-ntp.sjc.aristanetworks.com"
+    configletId: RECONCILE_HBG2333015T
+    description: ''
+    digest: 64ae2e1a18c0365862a693baa5c64c6387afcd0127ea777e83377c5a5acbe338
+    displayName: Reconcile mrvp307-leaf1a 2025-06-25T16:44:54.441Z
+  - body: "aaa root secret sha512 $6$El6iAWzAQPG2EJSi$gRBySxAPIVV4XJPhAb3a98QbBGiOUbRj.ICz2CO9N1mCmEHsVUGu3pd6uHU1kaFnK3KoJgb/lmc6lIY0pb6Ii1\n\
+      aaa authentication policy local allow-nopassword-remote-login\nusername admin\
+      \ privilege 15 role network-admin nopassword\nusername arista secret sha512\
+      \ $6$giTNCctxfJcFaRWY$EhRvq1nT1Gu1Fc2tCPQlwG5hdsEofk8FxLbbtw8Xah95rz3waxBeOQVUiuO51aw8O.C0KHC/ZTG2cfrTGXhF.1\n\
+      username cvpadmin privilege 15 secret sha512 $6$FYWzhTmg1Py9HQ89$FZavwWt0VLmUCeRLEupkcViuSlXbWP5iMS/5k6n6xJbwidPkw.Cj8RU6z6k4HLUJOpXBXCpDqZJf2VRcCU5hR/\n\
+      management api http-commands\n   no shutdown\nprompt %H.%D{%H:%M:%S}%P\nalias\
+      \ cc clear counters\nalias cpc clear platform trident counters\nalias sa show\
+      \ active\nalias senz show interface counter error | nz\nalias shmc show int\
+      \ | awk '/^[A-Z]/ { intf = $1 } /, address is/ { print intf, $6 }'\nalias snz\
+      \ show interface counter | nz\nalias spc show port-channel %1 detail all\nalias\
+      \ sqnz show interface counter queue | nz\nalias srnz show interface counter\
+      \ rate | nz\ndaemon TerminAttr\n   exec /usr/bin/TerminAttr -cvaddr=apiserver.arista.io:443\
+      \ -cvauth=token-secure,/tmp/cv-onboarding-token -disableaaa -smashexcludes=ale,flexCounter,hardware,kni,pulse,strata\
+      \ -ingestexclude=/Sysdb/cell/1/agent,/Sysdb/cell/2/agent -taillogs -sflow -sflowaddr=127.0.0.1:6343\n\
+      \   no shutdown\nhostname upp429-harness2\nip name-server vrf default 172.22.60.20\n\
+      dns domain sjc.aristanetworks.com\nsnmp-server community public ro\nport-channel\
+      \ load-balance trident fields ip destination-ip source-port destination-port\n\
+      clock timezone US/Pacific\nvlan 101-103,301,401\naaa authorization exec default\
+      \ local\ninterface Management1\n   ip address 172.28.137.209/20\nmac address-table\
+      \ aging-time 14400\nip routing\nip route 10.80.0.0/12 172.28.128.1\nip route\
+      \ 10.224.0.0/11 172.28.128.1\nip route 10.240.0.0/12 172.28.128.1\nip route\
+      \ 10.248.0.0/14 172.28.128.1\nip route 34.0.0.0/8 172.28.128.1\nip route 34.30.62.197/32\
+      \ 172.28.128.1\nip route 34.136.239.116/32 172.28.128.1\nip route 35.0.0.0/8\
+      \ 172.28.128.1\nip route 35.192.157.156/32 172.28.128.1\nip route 172.16.0.0/12\
+      \ 172.28.128.1\nntp server poc-ntp.sjc.aristanetworks.com"
+    configletId: RECONCILE_JPE18220919
+    description: ''
+    digest: 577ed19519703f675a975d8237c083f9955f0f1fab713fd1da994a56c3630f72
+    displayName: Reconcile upp429-harness2 2025-07-01T21:14:30.765Z
+  - body: "aaa root secret sha512 $6$3aNuHnc8t6c1Fzlt$SxKN3FZuaXI13WOWnyA7sehPCqSghosV84hK1UppYIu.VK2459jtYwPFu/IGcVj6cp/HnMlDIDeD2TzqjfmrH/\n\
+      aaa authentication policy local allow-nopassword-remote-login\nusername admin\
+      \ privilege 15 role network-admin nopassword\nusername arista secret sha512\
+      \ $6$Ytd6IkajXEJ6Pe7p$kESbMlrUaSkqKYsRi2UrqqPzlnGPDmhQxPW98AGrBeE8z3h/G4JBy3dis399o35b6YqNFL5V0wvspQ3u8Ousk0\n\
+      username cvpadmin privilege 15 secret sha512 $6$E19kC0kM8VrkLm1t$RfD7FFHHJW0pZYQMKh8hFNc8DtnABK1JFn4.dOZWqgRuirl1VeIixUEDp6eLZFaUhpa3EkHs65L1EXgpRa40W1\n\
+      management api http-commands\n   no shutdown\nprompt %H.%D{%H:%M:%S}%P\nalias\
+      \ cc clear counters\nalias cpc clear platform trident counters\nalias sa show\
+      \ active\nalias senz show interface counter error | nz\nalias shmc show int\
+      \ | awk '/^[A-Z]/ { intf = $1 } /, address is/ { print intf, $6 }'\nalias snz\
+      \ show interface counter | nz\nalias spc show port-channel %1 detail all\nalias\
+      \ sqnz show interface counter queue | nz\nalias srnz show interface counter\
+      \ rate | nz\ndaemon TerminAttr\n   exec /usr/bin/TerminAttr -cvaddr=apiserver.arista.io:443\
+      \ -cvauth=token-secure,/tmp/cv-onboarding-token -disableaaa -smashexcludes=ale,flexCounter,hardware,kni,pulse,strata\
+      \ -ingestexclude=/Sysdb/cell/1/agent,/Sysdb/cell/2/agent -taillogs -sflow -sflowaddr=127.0.0.1:6343\n\
+      \   no shutdown\nhostname upp428-harness1\nip name-server vrf default 172.22.60.20\n\
+      dns domain sjc.aristanetworks.com\nsnmp-server community public ro\nclock timezone\
+      \ US/Pacific\nvlan 10\n   name DMZ\nvlan 101-103,301,401\naaa authorization\
+      \ exec default local\ninterface Management1\n   ip address 172.28.133.149/20\n\
+      mac address-table aging-time 14400\nip routing\nip route 10.80.0.0/12 172.28.128.1\n\
+      ip route 10.224.0.0/11 172.28.128.1\nip route 10.240.0.0/12 172.28.128.1\nip\
+      \ route 10.248.0.0/14 172.28.128.1\nip route 34.0.0.0/8 172.28.128.1\nip route\
+      \ 34.30.62.197/32 172.28.128.1\nip route 34.136.239.116/32 172.28.128.1\nip\
+      \ route 35.0.0.0/8 172.28.128.1\nip route 35.192.157.156/32 172.28.128.1\nip\
+      \ route 172.16.0.0/12 172.28.128.1\nntp server poc-ntp.sjc.aristanetworks.com"
+    configletId: RECONCILE_JPE18220931
+    description: ''
+    digest: 6bca4c8159d136029628b64836e8c3de556f6f6fc3150b5de98b1cc0202e05b4
+    displayName: Reconcile upp428-harness1 2025-07-01T21:14:30.534Z
+  - body: "banner motd\n\n  ____            _            _        __  ____   ___ \
+      \  ____\n / ___| _   _ ___| |_ ___  ___| |_     / / |  _ \\ / _ \\ / ___|\n\
+      \ \\___ \\| | | / __| __/ _ \\/ __| __|   / /  | |_) | | | | |\n  ___) | |_|\
+      \ \\__ \\ ||  __/\\__ \\ |_   / /   |  __/| |_| | |___\n |____/ \\__, |___/\\\
+      __\\___||___/\\__| /_/    |_|    \\___/ \\____|\n |  _ \\ |___/_   _(_) ___\
+      \ ___\n | | | |/ _ \\ \\ / / |/ __/ _ \\.\n | |_| |  __/\\ V /| | (_|  __/\n\
+      \ |____/ \\___| \\_/ |_|\\___\\___|\n \nThis device is currently in use. If\
+      \ you need to access this device,\nyou must contact its current owner.\n\nOwner:\
+      \        Jana/Vinaygc/JohnGill\nPool:         LabTracker/POC\nReservation: \
+      \ VU DC POC\n\nEOF\nload-interval default 5\n"
+    configletId: 0d900197-926a-4675-954c-d1db3dbc0df6
+    description: ''
+    digest: 5d75e4ad20f22c8cc882a209d8820ac015a60d30e138f4271ea16d1cd2be8f09
+    displayName: VU-POC-banner
+  - body: "hardware tcam\nprofile vxlan-routing-pbr-inner\n      feature acl port\
+      \ ip\n         sequence 50\n         key size limit 160\n         key field\
+      \ dscp dst-ip ip-frag ip-protocol l4-dst-port l4-ops l4-src-port src-ip tcp-control\
+      \ ttl\n         action count drop mirror\n         packet ipv4 forwarding bridged\n\
+      \         packet ipv4 forwarding routed\n         packet ipv4 forwarding routed\
+      \ multicast\n         packet ipv4 mpls ipv4 forwarding mpls decap\n        \
+      \ packet ipv4 mpls ipv6 forwarding mpls decap\n         packet ipv4 non-vxlan\
+      \ forwarding routed decap\n         packet ipv4 vxlan eth ipv4 forwarding routed\
+      \ decap\n         packet ipv4 vxlan eth ipv6 forwarding routed decap\n     \
+      \    packet ipv4 vxlan forwarding bridged decap\n      feature acl port ip egress\
+      \ mpls-tunnelled-match\n         sequence 100\n      feature acl port ipv6 egress\n\
+      \         sequence 110\n         key field dst-ipv6 ipv6-next-header ipv6-traffic-class\
+      \ l4-dst-port l4-src-port src-ipv6-high src-ipv6-low tcp-control\n         action\
+      \ count drop mirror\n         packet ipv6 forwarding bridged\n         packet\
+      \ ipv6 forwarding routed\n      feature acl port mac\n         sequence 60\n\
+      \         key size limit 160\n         key field dst-mac ether-type src-mac\n\
+      \         action count drop mirror\n         packet ipv4 forwarding bridged\n\
+      \         packet ipv4 forwarding routed\n         packet ipv4 forwarding routed\
+      \ multicast\n         packet ipv4 mpls ipv4 forwarding mpls decap\n        \
+      \ packet ipv4 mpls ipv6 forwarding mpls decap\n         packet ipv4 non-vxlan\
+      \ forwarding routed decap\n         packet ipv4 vxlan eth ipv4 forwarding routed\
+      \ decap\n         packet ipv4 vxlan forwarding bridged decap\n         packet\
+      \ ipv6 forwarding bridged\n         packet ipv6 forwarding routed\n        \
+      \ packet ipv6 forwarding routed decap\n         packet ipv6 forwarding routed\
+      \ multicast\n         packet ipv6 ipv6 forwarding routed decap\n         packet\
+      \ mpls forwarding bridged decap\n         packet mpls ipv4 forwarding mpls\n\
+      \         packet mpls ipv6 forwarding mpls\n         packet mpls non-ip forwarding\
+      \ mpls\n         packet non-ip forwarding bridged\n      feature acl subintf\
+      \ ip\n         sequence 45\n         key size limit 160\n         key field\
+      \ dscp dst-ip ip-frag ip-protocol l4-dst-port l4-ops-18b l4-src-port src-ip\
+      \ tcp-control ttl\n         action count drop\n         packet ipv4 forwarding\
+      \ routed\n      feature acl subintf ipv6\n         sequence 20\n         key\
+      \ field dst-ipv6 ipv6-next-header l4-dst-port l4-src-port src-ipv6-high src-ipv6-low\
+      \ tcp-control\n         action count drop\n         packet ipv6 forwarding routed\n\
+      \      feature acl vlan ip\n         sequence 40\n         key size limit 160\n\
+      \         key field dscp dst-ip ip-frag ip-protocol l4-dst-port l4-ops-18b l4-src-port\
+      \ src-ip tcp-control ttl\n         action count drop\n         packet ipv4 forwarding\
+      \ routed\n         packet ipv4 mpls ipv4 forwarding mpls decap\n         packet\
+      \ ipv4 mpls ipv6 forwarding mpls decap\n         packet ipv4 non-vxlan forwarding\
+      \ routed decap\n         packet ipv4 vxlan eth ipv4 forwarding routed decap\n\
+      \      feature acl vlan ipv6\n         sequence 15\n         key field dst-ipv6\
+      \ ipv6-next-header l4-dst-port l4-src-port src-ipv6-high src-ipv6-low tcp-control\n\
+      \         action count drop\n         packet ipv6 forwarding routed\n      \
+      \   packet ipv6 ipv6 forwarding routed decap\n      feature acl vlan ipv6 egress\n\
+      \         sequence 25\n         key field dst-ipv6 ipv6-next-header ipv6-traffic-class\
+      \ l4-dst-port l4-src-port src-ipv6-high src-ipv6-low tcp-control\n         action\
+      \ count drop mirror\n         packet ipv6 forwarding bridged\n         packet\
+      \ ipv6 forwarding routed\n      feature forwarding-destination mpls\n      \
+      \   sequence 105\n      feature pbr ip\n         sequence 60\n         key size\
+      \ limit 160\n         key field dscp dst-ip ip-frag ip-protocol l4-dst-port\
+      \ l4-ops-18b l4-src-port src-ip tcp-control\n         action count redirect\n\
+      \         packet ipv4 forwarding routed\n         packet ipv4 mpls ipv4 forwarding\
+      \ mpls decap\n         packet ipv4 mpls ipv6 forwarding mpls decap\n       \
+      \  packet ipv4 vxlan eth ipv4 forwarding routed decap\n         packet ipv6\
+      \ vxlan eth ipv4 forwarding routed decap\n      feature pbr ipv6\n         sequence\
+      \ 30\n         key field dst-ipv6 ipv6-next-header l4-dst-port l4-src-port src-ipv6-high\
+      \ src-ipv6-low tcp-control\n         action count redirect\n         packet\
+      \ ipv4 vxlan eth ipv6 forwarding routed decap\n         packet ipv6 forwarding\
+      \ routed\n         packet ipv6 vxlan eth ipv6 forwarding routed decap\n    \
+      \  feature tunnel vxlan\n         sequence 55\n         key size limit 160\n\
+      \         key field forwarding-type in-port vxlan-inner-etype vxlan-inner-icmpv6-type\
+      \ vxlan-inner-ip-options vxlan-inner-ip-ttl vxlan-inner-ip-udp-dport\n     \
+      \    packet ipv4 vxlan eth ipv4 forwarding routed decap\n         packet ipv4\
+      \ vxlan eth ipv4 forwarding routed multicast decap\n         packet ipv4 vxlan\
+      \ eth ipv6 forwarding routed decap\n         packet ipv4 vxlan forwarding bridged\
+      \ decap\n      feature tunnel vxlan routing\n         sequence 10\n        \
+      \ packet ipv4 forwarding routed\n         packet ipv4 non-vxlan forwarding routed\
+      \ decap\n         packet ipv4 vxlan eth ipv4 forwarding routed decap\n     \
+      \    packet ipv4 vxlan eth ipv6 forwarding routed decap\n      feature tunnel\
+      \ vxlan routing v6-underlay\n         packet ipv6 vxlan eth ipv4 forwarding\
+      \ routed decap\n         packet ipv6 vxlan eth ipv6 forwarding routed decap\n\
+      \         packet ipv6 vxlan forwarding bridged decap\nsystem profile vxlan-routing-pbr-inner"
+    configletId: 1053877e-28fc-431a-b975-aa75efd1b6e5
+    description: ''
+    digest: c2e3e383534c1610144ee4e146eb8ffea22cb32c37ce90329472a2700aef8b1e
+    displayName: PBR-TCAM-PROFILE
+  - body: "mlag configuration\n peer-address heartbeat 172.28.140.43\n dual-primary\
+      \ detection delay 5 action errdisable all-interfaces\n dual-primary recovery\
+      \ delay mlag 60 non-mlag 0"
+    configletId: 164d9729-0022-4146-be74-3cd3f02f68fa
+    description: ''
+    digest: b0d218f5e4f7a43b0ca8242b5e15069526839356e558580a5e01861808785c4f
+    displayName: MLAG-DPD-Leaf2b
+  - body: "hardware tcam\n   profile mss-traffic-policy-l4-xform\n      feature acl\
+      \ port mac\n         key field dst-mac ether-type src-mac\n         action count\
+      \ drop mirror\n         packet ipv4 forwarding bridged\n         packet ipv4\
+      \ forwarding routed\n         packet ipv4 forwarding routed multicast\n    \
+      \     packet ipv4 mpls ipv4 forwarding mpls decap\n         packet ipv4 mpls\
+      \ ipv6 forwarding mpls decap\n         packet ipv4 non-vxlan forwarding routed\
+      \ decap\n         packet ipv4 vxlan forwarding bridged decap\n         packet\
+      \ ipv6 forwarding bridged\n         packet ipv6 forwarding routed\n        \
+      \ packet ipv6 forwarding routed decap\n         packet ipv6 forwarding routed\
+      \ multicast\n         packet ipv6 ipv6 forwarding routed decap\n         packet\
+      \ mpls forwarding bridged decap\n         packet mpls ipv4 forwarding mpls\n\
+      \         packet mpls ipv6 forwarding mpls\n         packet mpls non-ip forwarding\
+      \ mpls\n         packet non-ip forwarding bridged\n         sequence 55\n  \
+      \       key size limit 160\n      feature forwarding-destination mpls\n    \
+      \     sequence 100\n      feature mirror ip\n         key field dscp dst-ip\
+      \ ip-frag ip-protocol l4-dst-port l4-ops l4-src-port src-ip tcp-control\n  \
+      \       action count mirror set-policer\n         packet ipv4 forwarding bridged\n\
+      \         packet ipv4 forwarding routed\n         packet ipv4 forwarding routed\
+      \ multicast\n         packet ipv4 non-vxlan forwarding routed decap\n      \
+      \   sequence 80\n         key size limit 160\n      feature mpls\n         action\
+      \ drop redirect set-ecn\n         packet ipv4 mpls ipv4 forwarding mpls decap\n\
+      \         packet ipv4 mpls ipv6 forwarding mpls decap\n         packet mpls\
+      \ ipv4 forwarding mpls\n         packet mpls ipv6 forwarding mpls\n        \
+      \ packet mpls non-ip forwarding mpls\n         sequence 5\n         key size\
+      \ limit 160\n      feature mpls pop ingress\n         sequence 90\n      feature\
+      \ qos ip\n         key field dscp dst-ip ip-frag ip-protocol l4-dst-port l4-ops\
+      \ l4-src-port src-ip tcp-control\n         action set-dscp set-policer set-tc\n\
+      \         packet ipv4 forwarding routed\n         packet ipv4 forwarding routed\
+      \ multicast\n         packet ipv4 mpls ipv4 forwarding mpls decap\n        \
+      \ packet ipv4 mpls ipv6 forwarding mpls decap\n         packet ipv4 non-vxlan\
+      \ forwarding routed decap\n         sequence 75\n         key size limit 160\n\
+      \      feature qos ipv6\n         key field dst-ipv6 ipv6-next-header ipv6-traffic-class\
+      \ l4-dst-port l4-src-port src-ipv6-high src-ipv6-low\n         action set-dscp\
+      \ set-policer set-tc\n         packet ipv6 forwarding routed\n         sequence\
+      \ 70\n      feature traffic-policy port ipv4\n         key field dst-port dscp\
+      \ dst-ip-label ip-frag ip-fragment-offset ip-length ip-protocol l4-dst-port-label\
+      \ l4-src-port-label src-ip-label tcp-control ttl vxlan-decapsulated\n      \
+      \   action count drop redirect\n         packet ipv4 forwarding bridged\n  \
+      \       packet ipv4 forwarding routed\n         packet ipv4 mpls ipv4 forwarding\
+      \ mpls decap\n         packet ipv4 non-vxlan forwarding routed decap\n     \
+      \    packet mpls ipv4 forwarding bridged\n         packet mpls ipv4 forwarding\
+      \ mpls\n         sequence 45\n         key size limit 160\n      feature traffic-policy\
+      \ port ipv4 egress\n         key field dscp dst-ip-label ip-frag ip-protocol\
+      \ l4-dst-port l4-src-port src-ip-label tcp-control\n         action count drop\
+      \ redirect\n         packet ipv4 forwarding routed\n         packet mpls ipv4\
+      \ forwarding mpls\n         key size limit 160\n      feature traffic-policy\
+      \ port ipv6\n         key field dst-port dst-ipv6-label hop-limit ipv6-length\
+      \ ipv6-next-header ipv6-traffic-class l4-dst-port-label l4-src-port-label src-ipv6-label\
+      \ tcp-control\n         action count drop log mirror\n         packet ipv4 mpls\
+      \ ipv6 forwarding mpls decap\n         packet ipv6 forwarding bridged\n    \
+      \     packet ipv6 forwarding routed\n         packet ipv6 forwarding routed\
+      \ decap\n         packet mpls ipv6 forwarding bridged\n         packet mpls\
+      \ ipv6 forwarding mpls\n         sequence 25\n      feature traffic-policy port\
+      \ ipv6 egress\n         key field dscp dst-ipv6-label ipv6-next-header l4-dst-port\
+      \ l4-src-port src-ipv6-label tcp-control\n         action count drop log\n \
+      \        packet ipv6 forwarding routed\n         packet mpls ipv6 forwarding\
+      \ mpls\n      feature traffic-policy vlan-interface ipv4\n         key field\
+      \ vxlan-decapsulated\n         key field dst-port dscp dst-ip-label ip-frag\
+      \ ip-fragment-offset ip-length ip-protocol l4-dst-port-label l4-src-port-label\
+      \ src-ip-label tcp-control ttl vxlan-decapsulated\n         action count drop\
+      \ mirror redirect\n         packet ipv4 vxlan eth ipv4 forwarding routed decap\n\
+      \         packet ipv4 forwarding routed\n         packet ipv4 forwarding bridged\n\
+      \         packet ipv4 vxlan forwarding routed\n         key size limit 160\n\
+      \      feature traffic-policy vlan-interface ipv6\n         key field dst-port\
+      \ dst-ipv6-label hop-limit ipv6-length ipv6-next-header ipv6-traffic-class l4-dst-port-label\
+      \ l4-src-port-label src-ipv6-label tcp-control\n         action count drop mirror\
+      \ set-policer\n         packet ipv6 forwarding routed\n         packet ipv6\
+      \ forwarding bridged\n         key size limit 160\n      feature tunnel vxlan\n\
+      \         packet ipv4 vxlan eth ipv4 forwarding routed decap\n         packet\
+      \ ipv4 vxlan forwarding bridged decap\n         sequence 50\n         key size\
+      \ limit 160\nhardware tcam\nsystem profile mss-traffic-policy-l4-xform\nhardware\
+      \ counter feature traffic-policy out\nhardware counter feature traffic-policy\
+      \ in\nhardware counter feature traffic-policy vlan-interface in\n\n   "
+    configletId: 0cbce207-cd19-4181-8f66-7d0f9f71969c
+    description: ''
+    digest: f748bb419c58ce53b8bda9462faefbc54b5530f55984ab0edf389e6abcd8bd9c
+    displayName: MSS-HW-TCAM-profile
+  - body: "mlag configuration\n peer-address heartbeat 172.28.140.44\n dual-primary\
+      \ detection delay 5 action errdisable all-interfaces\n dual-primary recovery\
+      \ delay mlag 60 non-mlag 0"
+    configletId: 4dcfd6e3-e140-4898-b0ee-b7e83a98d366
+    description: ''
+    digest: 832972c55d726039be0c0219290a7a072836209e1233eb552535e7b12f96a166
+    displayName: MLAG-DPD-Leaf2a
+  - body: "hardware tcam\n   hardware tcam\n   profile vxlanVniUdfTp copy vxlan-routing\n\
+      \      feature traffic-policy port ipv4 copy system-feature-source-profile\n\
+      \         packet ipv4 vxlan eth ipv4 forwarding routed decap\n         key field\
+      \ udf-32b-1 vxlan-decapsulated\n         no key field ttl dscp\n         action\
+      \ redirect\n         no action set-tc set-dscp\n      feature traffic-policy\
+      \ port ipv6 copy system-feature-source-profile\n   system profile vxlanVniUdfTp\n\
+      \nhardware tcam\nsystem profile vxlanVniUdfTp\nhardware counter feature traffic-policy\
+      \ out\nhardware counter feature traffic-policy in"
+    configletId: 24045e4a-f1a9-4b02-8e88-888f405b1196
+    description: ''
+    digest: ae0609df9a2288e2ae31d48c9211747bfa7178f78d6db61be4f2b28dfe228d42
+    displayName: MSS-HW-TCAM-profile-experiment
+  - body: "traffic-policies\n   location vni1 ip-header-start offset 31 bytes length\
+      \ 32 bits\n   traffic-policy redirectVni\n      match m1 ipv4\n         location\
+      \ vni1 value 0x2329 mask 0xffffff\n         packet type\n            vxlan decap\n\
+      \         actions\n            count\n            redirect next-hop 192.168.254.1\
+      \ vrf VRF-1\n!\ninterface ethernet49/1\n   traffic-policy input redirectVni\n\
+      interface ethernet50/1\n   traffic-policy input redirectVni\ninterface ethernet51/1\n\
+      \   traffic-policy input redirectVni"
+    configletId: 6cf1e0f4-e2d5-41c3-b3a0-dde95076902c
+    description: ''
+    digest: 75794265a5021c36ff55056692dceba8b5754b9115e8963e9b3507f80426f382
+    displayName: TP-UDF-experimental
+  - body: "ip prefix-list match-router-id-mhd367\n   seq 10 permit 172.16.0.1/32\n\
+      !\nroute-map aspath-prepend permit 10\n   match router-id prefix-list match-router-id-mhd367\n\
+      \   set as-path prepend auto auto\n   set local-preference 25\n!\nrouter bgp\
+      \ 65002\n  neighbor 172.16.200.18 route-map aspath-prepend in\n  neighbor 172.16.200.18\
+      \ route-map aspath-prepend out\n!"
+    configletId: 3c07943f-99ee-480e-bb70-f7b9eaf690c9
+    description: ''
+    digest: 13426ff119d382d790a78ef5bc8048f453726d8a575986e9bc6d68d8a13a61d3
+    displayName: mrp361-underlay-rmap
+  - body: "ip access-list PERMIT-ANY-ACL\n   10 permit ip any any\n!\nclass-map type\
+      \ pbr match-any CM-PBR-PERMIT-ANY\n   10 match ip access-group PERMIT-ANY-ACL\n\
+      policy-map type pbr PM-PBR-BORDER-TO-EXTERNAL\n   10 class CM-PBR-PERMIT-ANY\n\
+      \      set nexthop 192.168.254.1\n!\ninterface Vlan100\n   service-policy type\
+      \ pbr input PM-PBR-BORDER-TO-EXTERNAL\ninterface Vlan101\n   service-policy\
+      \ type pbr input PM-PBR-BORDER-TO-EXTERNAL\ninterface Vlan102\n   service-policy\
+      \ type pbr input PM-PBR-BORDER-TO-EXTERNAL\ninterface Vlan103\n   service-policy\
+      \ type pbr input PM-PBR-BORDER-TO-EXTERNAL\n"
+    configletId: 6560af2e-c036-4da8-98a2-cbaa19173643
+    description: ''
+    digest: 13ca68d0f39a43961eabb622a76597a7029181ff8ed9885156fff53c40d52b6a
+    displayName: PBR-policy-BL1a
+  - body: 'sflow sample 16384
+
+      sflow polling-interval 10
+
+      sflow destination 127.0.0.1
+
+      sflow source-interface Loopback0
+
+      sflow run'
+    configletId: 71666779-1c7b-4795-b11c-8b3772b7b79b
+    description: ''
+    digest: cb459ec1794844c8b7e1118d2a37ece51114fc53f77166126e9f6f28f157aa7f
+    displayName: sflow config
+  - body: "!\nip extcommunity-list rt-vlan-101 permit rt 10101:10101\n!\nroute-map\
+      \ deny-vlan-101-traffic deny 10\n   match extcommunity rt-vlan-101\nroute-map\
+      \ deny-vlan-101-traffic permit 20\n!\nrouter bgp 65001\n neighbor EVPN-OVERLAY-PEERS\
+      \ route-map deny-vlan-101-traffic in\n neighbor EVPN-OVERLAY-PEERS route-map\
+      \ deny-vlan-101-traffic out\n!"
+    configletId: 8369a40b-07de-499b-9328-bf2716108884
+    description: ''
+    digest: dc31fc6f7b108debac9a11ef7e3a8b8b6e955b1a5ec14b11870bb22ee425c726
+    displayName: mrvp-307-350-route-map-deny-overlay-vlan101
+  - body: "management api gnmi\n   transport grpc default\n   provider eos-native"
+    configletId: 95473ecb-a9b5-46b2-8760-ca361e0afcef
+    description: ''
+    digest: 861d67c037411e9a7a5c9bb0397b8bc7f1b731a074b24d4505fec430e306460d
+    displayName: MSS-related-common-configs
+  - body: 'traffic-policies
+
+      transforms interface prefix common source-destination'
+    configletId: ab4754d6-d0b1-4b51-ba5f-fc36e0defefd
+    description: ''
+    digest: 685bc1a5344d1be848e58dbd204e4b4e2430f1c98ccabcb7474589b8610aecfa
+    displayName: strata-mss-transform-prefix
+  - body: 'logging host 172.28.132.121
+
+      logging format timestamp traditional year timezone'
+    configletId: e23dc7bc-4bed-4057-84e2-a1217a6c5d1b
+    description: ''
+    digest: cf810bc933728872a9b10ca60b92523e77218d1d379aa189585c5b0f67453fe7
+    displayName: syslog_poc-services-jgill
+  - body: "hardware tcam\n   profile mss-traffic-policy-l4-xform-pbr\n      no feature\
+      \ acl port mac\n      feature pbr ip\n         sequence 60\n         key size\
+      \ limit 160\n         key field dscp dst-ip ip-frag ip-protocol l4-dst-port\
+      \ l4-ops-18b l4-src-port src-ip tcp-control\n         action count redirect\n\
+      \         packet ipv4 forwarding routed\n         packet ipv4 vxlan eth ipv4\
+      \ forwarding routed decap\n         packet ipv6 vxlan eth ipv4 forwarding routed\
+      \ decap\n      feature forwarding-destination mpls\n         sequence 100\n\
+      \      feature mirror ip\n         key field dscp dst-ip ip-frag ip-protocol\
+      \ l4-dst-port l4-ops l4-src-port src-ip tcp-control\n         action count mirror\
+      \ set-policer\n         packet ipv4 forwarding bridged\n         packet ipv4\
+      \ forwarding routed\n         packet ipv4 forwarding routed multicast\n    \
+      \     packet ipv4 non-vxlan forwarding routed decap\n         sequence 80\n\
+      \         key size limit 160\n      feature mpls\n         action drop redirect\
+      \ set-ecn\n         packet ipv4 mpls ipv4 forwarding mpls decap\n         packet\
+      \ ipv4 mpls ipv6 forwarding mpls decap\n         packet mpls ipv4 forwarding\
+      \ mpls\n         packet mpls ipv6 forwarding mpls\n         packet mpls non-ip\
+      \ forwarding mpls\n         sequence 5\n         key size limit 160\n      feature\
+      \ mpls pop ingress\n         sequence 90\n      feature qos ip\n         key\
+      \ field dscp dst-ip ip-frag ip-protocol l4-dst-port l4-ops l4-src-port src-ip\
+      \ tcp-control\n         action set-dscp set-policer set-tc\n         packet\
+      \ ipv4 forwarding routed\n         packet ipv4 forwarding routed multicast\n\
+      \         packet ipv4 mpls ipv4 forwarding mpls decap\n         packet ipv4\
+      \ mpls ipv6 forwarding mpls decap\n         packet ipv4 non-vxlan forwarding\
+      \ routed decap\n         sequence 75\n         key size limit 160\n      feature\
+      \ qos ipv6\n         key field dst-ipv6 ipv6-next-header ipv6-traffic-class\
+      \ l4-dst-port l4-src-port src-ipv6-high src-ipv6-low\n         action set-dscp\
+      \ set-policer set-tc\n         packet ipv6 forwarding routed\n         sequence\
+      \ 70\n      feature traffic-policy port ipv4\n         key field dst-port dscp\
+      \ dst-ip-label ip-frag ip-fragment-offset ip-length ip-protocol l4-dst-port-label\
+      \ l4-src-port-label src-ip-label tcp-control ttl vxlan-decapsulated\n      \
+      \   action count drop mirror log\n         packet ipv4 forwarding bridged\n\
+      \         packet ipv4 forwarding routed\n         packet ipv4 mpls ipv4 forwarding\
+      \ mpls decap\n         packet ipv4 non-vxlan forwarding routed decap\n     \
+      \    packet mpls ipv4 forwarding bridged\n         packet mpls ipv4 forwarding\
+      \ mpls\n         sequence 45\n         key size limit 160\n      feature traffic-policy\
+      \ port ipv4 egress\n         key field dscp dst-ip-label ip-frag ip-protocol\
+      \ l4-dst-port l4-src-port src-ip-label tcp-control\n         action count drop\
+      \ log\n         packet ipv4 forwarding routed\n         packet mpls ipv4 forwarding\
+      \ mpls\n         key size limit 160\n      feature traffic-policy port ipv6\n\
+      \         key field dst-port dst-ipv6-label hop-limit ipv6-length ipv6-next-header\
+      \ ipv6-traffic-class l4-dst-port-label l4-src-port-label src-ipv6-label tcp-control\n\
+      \         action count drop log mirror\n         packet ipv4 mpls ipv6 forwarding\
+      \ mpls decap\n         packet ipv6 forwarding bridged\n         packet ipv6\
+      \ forwarding routed\n         packet ipv6 forwarding routed decap\n        \
+      \ packet mpls ipv6 forwarding bridged\n         packet mpls ipv6 forwarding\
+      \ mpls\n         sequence 25\n      feature traffic-policy port ipv6 egress\n\
+      \         key field dscp dst-ipv6-label ipv6-next-header l4-dst-port l4-src-port\
+      \ src-ipv6-label tcp-control\n         action count drop log\n         packet\
+      \ ipv6 forwarding routed\n         packet mpls ipv6 forwarding mpls\n      feature\
+      \ traffic-policy vlan-interface ipv4\n         key field dst-port dscp dst-ip-label\
+      \ ip-frag ip-fragment-offset ip-length ip-protocol l4-dst-port-label l4-src-port-label\
+      \ src-ip-label tcp-control ttl vxlan-decapsulated\n         action count drop\
+      \ mirror set-policer\n         packet ipv4 forwarding routed\n         packet\
+      \ ipv4 forwarding bridged\n         key size limit 160\n      feature traffic-policy\
+      \ vlan-interface ipv6\n         key field dst-port dst-ipv6-label hop-limit\
+      \ ipv6-length ipv6-next-header ipv6-traffic-class l4-dst-port-label l4-src-port-label\
+      \ src-ipv6-label tcp-control\n         action count drop mirror set-policer\n\
+      \         packet ipv6 forwarding routed\n         packet ipv6 forwarding bridged\n\
+      \         key size limit 160\n      feature tunnel vxlan\n         packet ipv4\
+      \ vxlan eth ipv4 forwarding routed decap\n         packet ipv4 vxlan forwarding\
+      \ bridged decap\n         sequence 50\n         key size limit 160\nhardware\
+      \ tcam\nsystem profile mss-traffic-policy-l4-xform-pbr"
+    configletId: e8eae52f-3d39-49b8-af10-d04255799107
+    description: ''
+    digest: 2956e7ab8b45b96d664dc0e1cf95ed495f93b64e4838fbd3328ed141a214f42f
+    displayName: MSS-and-PBR-TCAM-profile
+  - body: 'load-interval default 1
+
+      username arista  privilege 15 secret sha512 $6$7sjU91/UezRn/EM2$tn07AwYlDd8nm9zVmZHzEGyJpBssa5/aIlYQ2QiqA210tmgu1YNshpWIG8cdRGQs7cgDuSap4ioqmQ/nAw1FW0
+
+      username arista2 privilege 15 secret sha512 $6$iuAfFUS9JPQ7Mr7e$I4DbbdUOkCg9cHqYCxtG2rW78zx6zVskL421pRb5m03.yxQ8F5Zh1.GGIuhwKLsACjkRLd.BYgK3DOCCyTHrQ0'
+    configletId: ecdc5c08-bd7b-4981-b05e-6faf69ff2359
+    description: ''
+    digest: 66f468caf3b96c0b8a8b3eae25f198dec9a1191edbce59819d0988f2b059534a
+    displayName: Global defaults
+  - body: "   interface po1\n   switchport source-interface tx\n   switchport vlan\
+      \ translation out 100 3001"
+    configletId: f1c65be0-53f3-4d3d-90cb-3f344d8b3342
+    description: ''
+    digest: d667703b493814f61810aa9c358ed7f18c090d23495127857c935707caa93c69
+    displayName: pvlan-host-host-MSS
+  - body: "aaa root secret sha512 $6$7a68zl.0ShgMTiVz$4Jjyd4Ar6v9SBVHfMI3L9CAc0pp5CkM7p2.qGuNIiVbolqQcLRh8sv44heNiEPIy.6vW7Mb5qQo3uiqTdVUL0/\n\
+      aaa authentication policy local allow-nopassword-remote-login\nagent KernelFib\
+      \ environment KERNELFIB_PROGRAM_ALL_ECMP='true'\nmanagement api http-commands\n\
+      \   no shutdown\ndaemon TerminAttr\n   exec /usr/bin/TerminAttr -smashexcludes=ale,flexCounter,hardware,kni,pulse,strata\
+      \ -cvaddr=apiserver.arista.io:443 -cvauth=token-secure,/tmp/cv-onboarding-token\
+      \ -taillogs\n   no shutdown\nswitchport default mode routed\nlogging format\
+      \ sequence-numbers\nhostname vupoc-cloudeos-1\nip name-server vrf default 172.22.60.20\n\
+      dns domain sjc.aristanetworks.com\nclock timezone PST8PDT\ninterface Management1\n\
+      \   ip address 172.28.133.230/20\nip route 10.80.0.0/12 172.28.128.1\nip route\
+      \ 10.224.0.0/11 172.28.128.1\nip route 10.240.0.0/12 172.28.128.1\nip route\
+      \ 10.248.0.0/14 172.28.128.1\nip route 34.30.62.197/32 172.28.128.1\nip route\
+      \ 34.67.65.165/32 172.28.128.1\nip route 34.136.239.116/32 172.28.128.1\nip\
+      \ route 35.192.157.156/32 172.28.128.1\nip route 172.16.0.0/12 172.28.128.1\n\
+      ntp server 172.22.60.22\nntp server poc-ntp.sjc.aristanetworks.com"
+    configletId: RECONCILE_3B43374FB1F4982B5BACA7BFE63D129C
+    description: ''
+    digest: 8bb30c134ef56e7712f966021d6bd6439eea55075c6f49d19e6aab0ccf5c8672
+    displayName: Reconcile vupoc-cloudeos-1 2025-06-18T22:20:31.916Z
+  - body: "aaa authentication policy local allow-nopassword-remote-login\nagent KernelFib\
+      \ environment KERNELFIB_PROGRAM_ALL_ECMP='true'\ndaemon TerminAttr\n   exec\
+      \ /usr/bin/TerminAttr -smashexcludes=ale,flexCounter,hardware,kni,pulse,strata\
+      \ -cvaddr=apiserver.arista.io:443 -cvauth=token-secure,/tmp/cv-onboarding-token\
+      \ -taillogs\n   no shutdown\nswitchport default mode routed\nhostname poc-vu-vZTX\n\
+      ip name-server vrf default 172.22.60.20\ndns domain sjc.aristanetworks.com\n\
+      interface Ethernet1\n   no switchport\ninterface Ethernet2\n   no switchport\n\
+      interface Loopback1\n   ip address 192.168.99.1/32\ninterface Management1\n\
+      \   ip address 172.28.128.148/20\nfirewall distributed instance\n   no disabled\n\
+      ip routing\nip route 10.80.0.0/12 172.28.128.1\nip route 10.81.0.0/16 172.28.128.1\n\
+      ip route 10.95.0.0/16 172.28.128.1\nip route 10.240.0.0/13 172.28.128.1\nip\
+      \ route 34.0.0.0/8 172.28.128.1\nip route 34.30.62.197/32 172.28.128.1\nip route\
+      \ 34.136.239.116/32 172.28.128.1\nip route 35.0.0.0/8 172.28.128.1\nip route\
+      \ 35.192.157.156/32 172.28.128.1\nip route 172.16.0.0/12 172.28.128.1\nntp server\
+      \ poc-ntp.sjc.aristanetworks.com"
+    configletId: RECONCILE_6C720D7A0BBE2C8D4C4A284B5010055F
+    description: ''
+    digest: c82cb5308f6bc774fcc4f83a46a5456835cdeb5c8727c6979f007e1f985e16d5
+    displayName: Reconcile poc-vu-vZTX 2025-06-27T06:37:09.753Z
+path: []

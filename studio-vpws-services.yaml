@@ -1,0 +1,8 @@
+inputs:
+  customers: []
+  hideAndShowOptions:
+    hideShowOptionsGroup:
+      globalSettings: Hide
+      serviceType: Show
+      speed: Hide
+path: []

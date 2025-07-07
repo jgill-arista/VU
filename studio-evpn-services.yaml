@@ -1,0 +1,233 @@
+inputs:
+  tenants:
+  - evpnMulticast: {}
+    macVrfVniBase: 10000
+    name: VRF-1
+    vlanAwareBundles: []
+    vlans:
+    - additionalRouteTargets: []
+      arp: {}
+      bgpEosCli: null
+      dhcpServerDetails: []
+      eTreeDetails: {}
+      eTreeRootSwitches: []
+      enableVlanIpVersion: {}
+      eosCli: []
+      evpnMulticast: {}
+      l3OrL2: true
+      mtu: 9000
+      name: vmotion-vlan
+      nodes: []
+      overrideVariables: {}
+      sviIpAddresses:
+        sviVirtualIpAddress: 192.168.1.1/24
+        virtualAddressConfigType: true
+      sviIpAddressesV6: {}
+      switches:
+      - inputs:
+          switch: {}
+        tags:
+          query: Leaf-Domain:*
+      vlanId: 100
+      vrf: VRF-1
+      vxlan: true
+    - additionalRouteTargets: []
+      arp: {}
+      bgpEosCli: null
+      dhcpServerDetails: []
+      eTreeDetails: {}
+      eTreeRootSwitches: []
+      enableVlanIpVersion: {}
+      eosCli: []
+      evpnMulticast: {}
+      l3OrL2: true
+      mtu: 9000
+      name: service1
+      nodes: []
+      overrideVariables: {}
+      sviIpAddresses:
+        sviVirtualIpAddress: 192.168.2.1/24
+        virtualAddressConfigType: true
+      sviIpAddressesV6: {}
+      switches:
+      - inputs:
+          switch: {}
+        tags:
+          query: Leaf-Domain:*
+      vlanId: 101
+      vrf: VRF-1
+      vxlan: true
+    - additionalRouteTargets: []
+      arp: {}
+      bgpEosCli: null
+      dhcpServerDetails: []
+      eTreeDetails: {}
+      eTreeRootSwitches: []
+      enableVlanIpVersion: {}
+      eosCli: []
+      evpnMulticast: {}
+      l3OrL2: true
+      mtu: 9000
+      name: service2
+      nodes: []
+      overrideVariables: {}
+      sviIpAddresses:
+        sviVirtualIpAddress: 192.168.3.1/24
+        virtualAddressConfigType: true
+      sviIpAddressesV6: {}
+      switches:
+      - inputs:
+          switch: {}
+        tags:
+          query: Leaf-Domain:*
+      vlanId: 102
+      vrf: VRF-1
+      vxlan: true
+    - additionalRouteTargets: []
+      arp: {}
+      bgpEosCli: null
+      dhcpServerDetails: []
+      eTreeDetails: {}
+      eTreeRootSwitches: []
+      enableVlanIpVersion: {}
+      eosCli: []
+      evpnMulticast: {}
+      l3OrL2: true
+      mtu: 9000
+      name: null
+      nodes: []
+      overrideVariables: {}
+      sviIpAddresses:
+        sviVirtualIpAddress: 192.168.4.1/24
+        virtualAddressConfigType: true
+      sviIpAddressesV6: {}
+      switches:
+      - inputs:
+          switch: {}
+        tags:
+          query: Leaf-Domain:*
+      vlanId: 103
+      vrf: VRF-1
+      vxlan: true
+    vrfs:
+    - additionalRouteTargets: []
+      bgp: {}
+      devices:
+      - inputs:
+          devices: {}
+        tags:
+          query: Leaf-Domain:*
+      enableVrfIpVersion: {}
+      evpnMulticast: {}
+      externalBgpPeers: []
+      iBgpDetails:
+        iBgpOriginIncomplete: true
+        iBgpSubnet: 192.168.254.0/31
+        iBgpSubnetMask: 31
+        iBgpSubnetMaskV6: 127
+        iBgpVlanId: 4084
+      l3Interfaces: []
+      name: VRF-1
+      natSourceDetails: {}
+      overrideVariables: {}
+      staticRoutes: []
+      vni: 9001
+  - evpnMulticast: {}
+    macVrfVniBase: 10000
+    name: Tenant-2
+    vlanAwareBundles: []
+    vlans:
+    - additionalRouteTargets: []
+      arp: {}
+      bgpEosCli: null
+      dhcpServerDetails: []
+      eTreeDetails: {}
+      eTreeRootSwitches: []
+      enableVlanIpVersion: {}
+      eosCli: []
+      evpnMulticast: {}
+      l3OrL2: true
+      mtu: 9000
+      name: Test
+      nodes: []
+      overrideVariables: {}
+      sviDescription: null
+      sviIpAddresses:
+        sviVirtualIpAddress: 192.168.3.1/24
+        virtualAddressConfigType: true
+      sviIpAddressesV6: {}
+      switches:
+      - inputs:
+          switch: {}
+        tags:
+          query: Leaf-Domain:*
+      vlanId: 301
+      vrf: Test
+      vxlan: true
+    - additionalRouteTargets: []
+      arp: {}
+      bgpEosCli: null
+      dhcpServerDetails: []
+      eTreeDetails: {}
+      eTreeRootSwitches: []
+      enableVlanIpVersion: {}
+      eosCli: []
+      evpnMulticast: {}
+      l3OrL2: true
+      mtu: 9000
+      name: Prod
+      nodes: []
+      overrideVariables: {}
+      sviDescription: null
+      sviIpAddresses:
+        sviVirtualIpAddress: 192.168.4.1/24
+        virtualAddressConfigType: true
+      sviIpAddressesV6: {}
+      switches:
+      - inputs:
+          switch: {}
+        tags:
+          query: Leaf-Domain:*
+      vlanId: 401
+      vrf: Prod
+      vxlan: true
+    vrfs:
+    - additionalRouteTargets: []
+      bgp: {}
+      description: null
+      devices: []
+      enableVrfIpVersion: {}
+      evpnMulticast: {}
+      externalBgpPeers: []
+      iBgpDetails: {}
+      l3Interfaces: []
+      name: Prod
+      natSourceDetails: {}
+      overrideVariables: {}
+      staticRoutes: []
+      vni: 9004
+      vrfLeakEvpnRouteMaps: []
+    - additionalRouteTargets:
+      - addressFamily: evpn
+        devices:
+        - inputs:
+            devices: {}
+          tags:
+            query: Leaf-Domain:*
+        routeTarget: ' 9004:9004'
+        type: import
+      bgp: {}
+      description: null
+      devices: []
+      enableVrfIpVersion: {}
+      evpnMulticast: {}
+      externalBgpPeers: []
+      iBgpDetails: {}
+      l3Interfaces: []
+      name: Test
+      natSourceDetails: {}
+      overrideVariables: {}
+      staticRoutes: []
+      vni: 9003
+      vrfLeakEvpnRouteMaps: []
+path: []

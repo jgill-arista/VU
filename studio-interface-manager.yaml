@@ -1,0 +1,186 @@
+inputs:
+  devices:
+  - inputs:
+      interface:
+      - inputs:
+          intfConfig:
+            enabled: true
+            profile: mlag-2-port-channel
+        tags:
+          query: interface:Ethernet52/1@HBG2333015N
+    tags:
+      query: device:HBG2333015N
+  - inputs:
+      interface:
+      - inputs:
+          intfConfig:
+            enabled: true
+            profile: port-channel-upp428
+        tags:
+          query: interface:Ethernet1/1@JPE18220931
+      - inputs:
+          intfConfig:
+            enabled: false
+            profile: null
+        tags:
+          query: interface:Ethernet1/2@JPE18220931
+      - inputs:
+          intfConfig:
+            enabled: true
+            profile: ixia-trunk-all
+        tags:
+          query: interface:Ethernet33@JPE18220931
+      - inputs:
+          intfConfig:
+            enabled: true
+            profile: port-channel-upp428
+        tags:
+          query: interface:Ethernet2/1@JPE18220931
+    tags:
+      query: device:JPE18220931
+  - inputs:
+      interface:
+      - inputs:
+          intfConfig:
+            enabled: true
+            profile: port-channel-upp429
+        tags:
+          query: interface:Ethernet1/1@JPE18220919
+      - inputs:
+          intfConfig:
+            enabled: false
+            profile: null
+        tags:
+          query: interface:Ethernet1/2@JPE18220919
+      - inputs:
+          intfConfig:
+            enabled: true
+            profile: ixia-trunk-all
+        tags:
+          query: interface:Ethernet33@JPE18220919
+      - inputs:
+          intfConfig:
+            enabled: true
+            profile: port-channel-upp429
+        tags:
+          query: interface:Ethernet2/1@JPE18220919
+    tags:
+      query: device:JPE18220919
+  - inputs:
+      interface:
+      - inputs:
+          intfConfig:
+            enabled: true
+            profile: mlag-2-port-channel
+        tags:
+          query: interface:Ethernet52/1@HBG2333015T
+    tags:
+      query: device:HBG2333015T
+  - inputs:
+      interface:
+      - inputs:
+          intfConfig:
+            enabled: true
+            profile: mlag-2-port-channel-domain2
+        tags:
+          query: interface:Ethernet53/1@HBG2403051V
+    tags:
+      query: device:HBG2403051V
+  - inputs:
+      interface:
+      - inputs:
+          intfConfig:
+            enabled: true
+            profile: mlag-2-port-channel-domain2
+        tags:
+          query: interface:Ethernet53/1@HBG2403054B
+    tags:
+      query: device:HBG2403054B
+  - inputs:
+      interface:
+      - inputs:
+          intfConfig:
+            profile: ixia-trunk-all
+        tags:
+          query: ''
+    tags:
+      query: device:JPA2320P22Q
+  - inputs:
+      interface:
+      - inputs:
+          intfConfig:
+            profile: ixia-trunk-all
+        tags:
+          query: ''
+    tags:
+      query: device:JPE19391306
+  profiles:
+  - allowedVlans: null
+    ipaddress: null
+    ipmtu: 9000
+    lacpEnabled: true
+    mlagEnabled: false
+    mode: routed
+    name: port-channel
+    nativeVlanId: 1
+    phoneVlanId: 1
+    portFastEnabled: true
+    profileDescription: core port-channel
+    speed: null
+  - allowedVlans: 101-103,301,401
+    channelGroup: 2
+    ipaddress: null
+    lacpEnabled: true
+    mlagEnabled: true
+    mode: trunk
+    name: mlag-2-port-channel
+    nativeVlanId: 1
+    phoneVlanId: 1
+    portFastEnabled: true
+    profileDescription: mlag-leafdomain1
+    speed: null
+  - allowedVlans: 101-103,301,401
+    channelGroup: 2
+    ipaddress: null
+    lacpEnabled: true
+    mlagEnabled: true
+    mode: trunk
+    name: mlag-2-port-channel-domain2
+    nativeVlanId: 1
+    phoneVlanId: 1
+    portFastEnabled: true
+    profileDescription: mlag-2-leafDomain2
+    speed: null
+  - allowedVlans: 101-103,301,401
+    channelGroup: 2
+    ipaddress: null
+    lacpEnabled: true
+    mode: trunk
+    name: port-channel-upp428
+    nativeVlanId: 1
+    phoneVlanId: 1
+    portFastEnabled: false
+    profileDescription: leafDomain1
+    speed: null
+  - allowedVlans: 101-103,301,401
+    channelGroup: 2
+    ipaddress: null
+    lacpEnabled: true
+    mode: trunk
+    name: port-channel-upp429
+    nativeVlanId: 1
+    phoneVlanId: 1
+    portFastEnabled: false
+    profileDescription: leafDomain2
+    speed: null
+  - allowedVlans: 101-103,301,401
+    ipaddress: null
+    lacpEnabled: true
+    mode: trunk
+    name: ixia-trunk-all
+    nativeVlanId: 1
+    phoneVlanId: 1
+    portFastEnabled: true
+    profileDescription: Ixia
+    speed: null
+path: []

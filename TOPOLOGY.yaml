@@ -1974,7 +1974,7 @@ inputs:
               neighborInterfaceName: Ethernet45
           tags:
             query: interface:Management1@JPN2439P0XU
-        macAddress: 9c:69:ed:71:68:c1
+        macAddress: 9c69.ed71.68c1
         modelName: DCS-7050CX4M-48D8
     tags:
       query: device:JPN2439P0XU

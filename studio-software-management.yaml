@@ -1,0 +1,25 @@
+inputs:
+  softwareResolver:
+  - inputs:
+      softwareGroup:
+        extensionsCollection: []
+        imageName: EOS64-4.34.1F.swi
+        streamingAgentName: null
+    tags:
+      query: all_devices:* NOT device:JPE19391306 AND NOT  device:JPE20012250 NOT
+        device:HBG2333015N
+  - inputs:
+      softwareGroup:
+        imageName: EOS64-4.32.5.1M.swi
+    tags:
+      query: device:JPE19391306 | device:JPE20012250
+  - inputs:
+      softwareGroup:
+        extensionsCollection: []
+        imageName: EOS64-4.34.1F.swi
+        streamingAgentName: null
+    tags:
+      query: device:HBG2333015N
+  ztpSoftwareAssignment: []
+  ztpSoftwareConfig: {}
+path: []

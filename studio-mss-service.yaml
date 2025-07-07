@@ -1,0 +1,172 @@
+inputs:
+  hiddenDeviceMapper:
+  - deviceId: HBG2333015T
+    deviceType: TOR switch
+    interfaceIp: 172.16.0.5
+    interfaceName: Loopback0
+  - deviceId: HBG2403051V
+    deviceType: TOR switch
+    interfaceIp: 172.16.0.6
+    interfaceName: Loopback0
+  - deviceId: HBG2403054B
+    deviceType: TOR switch
+    interfaceIp: 172.16.0.7
+    interfaceName: Loopback0
+  - deviceId: HBG2333015N
+    deviceType: TOR switch
+    interfaceIp: 172.16.0.4
+    interfaceName: Loopback0
+  hiddenIntersectedGroupsMapper: []
+  hiddenPolicyIdMapper:
+  - hiddenPolicyId: 256
+    hiddenPolicyName: policy-default-vrf
+  - hiddenPolicyId: 257
+    hiddenPolicyName: policy-vrf-VRF1
+  - hiddenPolicyId: 258
+    hiddenPolicyName: policy-vrf-VRF1-border-leaf
+  - hiddenPolicyId: 259
+    hiddenPolicyName: policy-vrf-VRF1-monitor-node
+  hiddenVrfMapper:
+  - vrfKey: 0
+    vrfName: default
+  - vrfKey: 1
+    vrfName: VRF-1
+  monitorObjects:
+  - activeTimeout: 2000
+    exporterInterface: Loopback1
+    monitorNode:
+      tags:
+        query: device:6C720D7A0BBE2C8D4C4A284B5010055F
+    name: vZTX
+    rateLimit: 100000
+    truncation: true
+    tunnelDestinationIp: 192.168.99.1
+    tunnelSourceInterface: Loopback0
+  policies:
+  - description: null
+    name: policy-default-vrf
+    policyRules:
+    - permit-all
+  - description: null
+    name: policy-vrf-VRF1
+    policyRules:
+    - permit-all
+  - description: null
+    name: policy-vrf-VRF1-border-leaf
+    policyRules:
+    - redirect-internet-traffic
+    - permit-all
+  - description: null
+    name: policy-vrf-VRF1-monitor-node
+    policyRules:
+    - deny-domain1-domain2
+    - permit-all
+  redirectObjects:
+  - name: redirect-inet-border-leaf2
+    nextHopIp: 192.168.254.1
+    vrf: VRF-1
+  rules:
+  - action: forward
+    description: null
+    destinations:
+    - <any>
+    direction: true
+    monitorName: null
+    name: permit-all
+    packet: any
+    redirectName: null
+    services:
+    - <any>
+    sources:
+    - <any>
+  - action: forward
+    description: null
+    destinations:
+    - Domain1-2-prefixes
+    direction: true
+    monitorName: vZTX
+    name: deny-domain1-domain2
+    packet: any
+    redirectName: null
+    services:
+    - <any>
+    sources:
+    - Domain1-2-prefixes
+  - action: drop
+    description: null
+    destinations:
+    - poc-VU-VM2
+    direction: true
+    monitorName: null
+    name: deny-VM1-VM2
+    packet: any
+    redirectName: null
+    services:
+    - <any>
+    sources:
+    - poc-VU-VM1
+  - action: forward
+    description: null
+    destinations:
+    - <any>
+    direction: true
+    monitorName: null
+    name: redirect-internet-traffic
+    packet: any
+    redirectName: null
+    services:
+    - <any>
+    sources:
+    - Domain1-2-prefixes
+  securityDomains:
+  - inputs:
+      securityDomain:
+        domainPolicies:
+        - name: policy-default-vrf
+          vrf: default
+        - name: policy-vrf-VRF1-monitor-node
+          vrf: VRF-1
+    tags:
+      query: security-domain:DC1-leafs
+  - inputs:
+      securityDomain:
+        domainPolicies:
+        - name: policy-default-vrf
+          vrf: default
+        - name: policy-vrf-VRF1-border-leaf
+          vrf: VRF-1
+    tags:
+      query: security-domain:DC1-Border-Leafs
+  services:
+  - configurations:
+    - destinationports: '1254'
+      icmpTypes: all
+      protocol: udp
+      sourceports: all
+    name: UDP-1254
+    protocols: TCP/UDP
+  staticGroups:
+  - membership:
+      members:
+      - 192.168.1.0/24
+      - 192.168.2.0/24
+      - 192.168.3.0/24
+      - 192.168.4.0/24
+    name: Domain1-2-prefixes
+  - membership:
+      members:
+      - 192.168.1.2/32
+    name: poc-VU-VM1
+  - membership:
+      members:
+      - 192.168.1.3/32
+    name: poc-VU-VM2
+  - membership:
+      members:
+      - 192.168.2.0/24
+    name: vrf-1-vlan101-prefixes
+  - membership:
+      members:
+      - 192.168.3.0/24
+    name: vrf-1-vlan102-prefixes
+path: []

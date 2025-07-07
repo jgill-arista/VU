@@ -1,0 +1,827 @@
+inputs:
+  pods:
+  - inputs:
+      pod:
+        commonBGPConfig: {}
+        commonMlagConfig:
+          internalVlan: 4094
+          ipv6MlagLinkSubnet: fe80::/127
+          lacpMode: Active
+          mlagLinkSubnet: 169.254.0.0/31
+          mlagPortChannelId: 2000
+          virtualRouterMac: 00:1c:73:00:00:99
+        coreRouters:
+        - inputs:
+            coreLinkDetails:
+              bgpDefaults:
+                bgpSettings:
+                  bgpDefaultSettings:
+                    bgpDPath: false
+                    bgpDistance: 20 200 200
+                    maximumPaths: 4
+                    maximumPathsEcmp: 4
+                    noBgpDefaultIPv4Unicast: false
+              coreBgpNetworks: {}
+              coreCommunityLists: []
+              coreeBgpNeighbors:
+              - coreneighborIp: 10.50.0.0
+                corepeerAsn: 65003
+                corepeerGroup: BORDER-LF
+                corevrf: null
+                description: BORDER-LF1a
+                shutdown: 'No'
+              - coreneighborIp: 10.50.0.2
+                corepeerAsn: 65003
+                corepeerGroup: BORDER-LF
+                corevrf: null
+                description: BORDER-LF1b
+                shutdown: 'No'
+              - coreneighborIp: 10.53.0.1
+                corepeerAsn: 100101
+                corepeerGroup: IXIA
+                corevrf: null
+                description: IXIA
+                shutdown: 'No'
+              coreneighbor: []
+              corenodeSegmentIndexGroup: {}
+              corepeerGroups:
+              - coreAddressFamily: null
+                coreBgpAuthKeyEncryptedOrPlaintext: true
+                coreEBgpAuthKey: null
+                coreMsAddressFamily:
+                - addressFamily: ipv4
+                corePeerGroupCliInput: []
+                coreRedistributionRouteMap: []
+                coreRouteMapInName: null
+                coreRouteMapOutName: null
+                coreasnSettings:
+                  coreAsPathRemoteAsReplace: false
+                corebgpoptions:
+                  corebfd: true
+                  corebgpDefaultInformationOriginate: Disabled
+                  coreospfDefaultInformationOriginate: Disabled
+                  coreredistributeConnectedRoutes: false
+                  coreredistributeRoutes: false
+                  coreredistributeStaticRoutes: false
+                coredciOptions: {}
+                coredescription: BORDER-LEAF
+                corepeerGroupName: BORDER-LF
+                corerouteMapIn: []
+                corerouteMapOut: []
+                familyRouteTargetOptions: {}
+                listenRange: []
+              - coreAddressFamily: null
+                coreBgpAuthKeyEncryptedOrPlaintext: true
+                coreEBgpAuthKey: null
+                coreMsAddressFamily:
+                - addressFamily: ipv4
+                corePeerGroupCliInput: []
+                coreRedistributionRouteMap: []
+                coreRouteMapInName: null
+                coreRouteMapOutName: null
+                coreasnSettings:
+                  coreAsPathRemoteAsReplace: false
+                corebgpoptions:
+                  corebfd: false
+                  corebgpDefaultInformationOriginate: Disabled
+                  coreospfDefaultInformationOriginate: Disabled
+                  coreredistributeConnectedRoutes: false
+                  coreredistributeRoutes: false
+                  coreredistributeStaticRoutes: false
+                coredciOptions: {}
+                coredescription: IXIA
+                corepeerGroupName: IXIA
+                corerouteMapIn: []
+                corerouteMapOut: []
+                familyRouteTargetOptions: {}
+                listenRange: []
+              coreprefixLists: []
+              corestaticRoutes: []
+              deviceCli: null
+              igpAndBgpRedistribution:
+                redistribution:
+                  bgpSettings:
+                    iPv4: false
+                    iPv6: false
+                    ospfExternal: true
+                    ospfInternal: true
+                    ospfNssaExternal: true
+                    redistributeConnected: true
+                    redistributeIgp: false
+                    redistributeStatic: false
+              interfaces:
+              - coreAuthKeyEncryptedOrPlaintext: true
+                coreExtIntIpUnnumbered: false
+                coreExtIntfAuthKey: null
+                coreExtOspfArea: '0'
+                corePassiveInterace: false
+                coreVirtualRouterAddress: null
+                coreextIpv6Address: null
+                coreextIpv6SubnetMask: 64
+                coreextdescription: Border-LF1a
+                coreextinterfaceName: Ethernet1/1
+                coreextipAddress: 10.50.0.1
+                coreextmtu: 9000
+                coreextospf: Disabled
+                coreextspeed: null
+                coreextsubnetMask: 31
+                coreextvrf: null
+              - coreAuthKeyEncryptedOrPlaintext: true
+                coreExtIntIpUnnumbered: false
+                coreExtIntfAuthKey: null
+                coreExtOspfArea: '0'
+                corePassiveInterace: false
+                coreVirtualRouterAddress: null
+                coreextIpv6Address: null
+                coreextIpv6SubnetMask: 64
+                coreextdescription: Border-LF1b
+                coreextinterfaceName: Ethernet2/1
+                coreextipAddress: 10.50.0.3
+                coreextmtu: 9000
+                coreextospf: Disabled
+                coreextspeed: null
+                coreextsubnetMask: 31
+                coreextvrf: null
+              - coreAuthKeyEncryptedOrPlaintext: true
+                coreExtIntIpUnnumbered: false
+                coreExtIntfAuthKey: null
+                coreExtOspfArea: '0'
+                corePassiveInterace: false
+                coreVirtualRouterAddress: null
+                coreextIpv6Address: null
+                coreextIpv6SubnetMask: 64
+                coreextdescription: Ixia-WAN
+                coreextinterfaceName: Ethernet3/1
+                coreextipAddress: 10.53.0.0
+                coreextmtu: 9000
+                coreextospf: Disabled
+                coreextspeed: null
+                coreextsubnetMask: 31
+                coreextvrf: null
+              loopbackSettings: {}
+              trafficEngineering: {}
+          tags:
+            query: device:JPE19391306
+        - inputs:
+            coreLinkDetails:
+              bgpDefaults:
+                bgpSettings:
+                  bgpDefaultSettings:
+                    bgpDPath: false
+                    bgpDistance: 20 200 200
+                    maximumPaths: 4
+                    maximumPathsEcmp: 4
+                    noBgpDefaultIPv4Unicast: false
+              coreBgpNetworks: {}
+              coreCommunityLists: []
+              coreeBgpNeighbors:
+              - coreneighborIp: 10.51.0.2
+                corepeerAsn: 65003
+                corepeerGroup: BORDER-LF
+                corevrf: null
+                description: Border-LF1b
+                shutdown: 'No'
+              - coreneighborIp: 10.51.0.0
+                corepeerAsn: 65003
+                corepeerGroup: BORDER-LF
+                corevrf: null
+                description: Border-LF1a
+                shutdown: 'No'
+              - coreneighborIp: 10.53.0.3
+                corepeerAsn: 100102
+                corepeerGroup: IXIA
+                corevrf: null
+                description: Ixia-INET
+                shutdown: 'No'
+              coreneighbor: []
+              corenodeSegmentIndexGroup: {}
+              corepeerGroups:
+              - coreAddressFamily: null
+                coreBgpAuthKeyEncryptedOrPlaintext: true
+                coreEBgpAuthKey: null
+                coreMsAddressFamily:
+                - addressFamily: ipv4
+                corePeerGroupCliInput: []
+                coreRedistributionRouteMap: []
+                coreRouteMapInName: null
+                coreRouteMapOutName: null
+                coreasnSettings:
+                  coreAsPathRemoteAsReplace: false
+                corebgpoptions:
+                  corebfd: true
+                  corebgpDefaultInformationOriginate: Disabled
+                  coreospfDefaultInformationOriginate: Disabled
+                  coreredistributeConnectedRoutes: false
+                  coreredistributeRoutes: false
+                  coreredistributeStaticRoutes: false
+                coredciOptions: {}
+                coredescription: BORDER-LEAF
+                corepeerGroupName: BORDER-LF
+                corerouteMapIn: []
+                corerouteMapOut: []
+                familyRouteTargetOptions: {}
+                listenRange: []
+              - coreAddressFamily: null
+                coreBgpAuthKeyEncryptedOrPlaintext: true
+                coreEBgpAuthKey: null
+                coreMsAddressFamily:
+                - addressFamily: ipv4
+                corePeerGroupCliInput: []
+                coreRedistributionRouteMap: []
+                coreRouteMapInName: null
+                coreRouteMapOutName: null
+                coreasnSettings:
+                  coreAsPathRemoteAsReplace: false
+                corebgpoptions: {}
+                coredciOptions: {}
+                coredescription: IXIA
+                corepeerGroupName: IXIA
+                corerouteMapIn: []
+                corerouteMapOut: []
+                familyRouteTargetOptions: {}
+                listenRange: []
+              coreprefixLists: []
+              corestaticRoutes: []
+              deviceCli: null
+              igpAndBgpRedistribution:
+                redistribution:
+                  bgpSettings:
+                    iPv4: false
+                    iPv6: false
+                    ospfExternal: true
+                    ospfInternal: true
+                    ospfNssaExternal: true
+                    redistributeConnected: true
+                    redistributeIgp: false
+                    redistributeStatic: false
+              interfaces:
+              - coreAuthKeyEncryptedOrPlaintext: true
+                coreExtIntIpUnnumbered: false
+                coreExtIntfAuthKey: null
+                coreExtOspfArea: '0'
+                corePassiveInterace: false
+                coreVirtualRouterAddress: null
+                coreextIpv6Address: null
+                coreextIpv6SubnetMask: 64
+                coreextdescription: Border-LF1a
+                coreextinterfaceName: Ethernet2/1
+                coreextipAddress: 10.51.0.1
+                coreextmtu: 9000
+                coreextospf: Disabled
+                coreextspeed: null
+                coreextsubnetMask: 31
+                coreextvrf: null
+              - coreAuthKeyEncryptedOrPlaintext: true
+                coreExtIntIpUnnumbered: false
+                coreExtIntfAuthKey: null
+                coreExtOspfArea: '0'
+                corePassiveInterace: false
+                coreVirtualRouterAddress: null
+                coreextIpv6Address: null
+                coreextIpv6SubnetMask: 64
+                coreextdescription: Border-LF1b
+                coreextinterfaceName: Ethernet1/1
+                coreextipAddress: 10.51.0.3
+                coreextmtu: 9000
+                coreextospf: Disabled
+                coreextspeed: null
+                coreextsubnetMask: 31
+                coreextvrf: null
+              - coreAuthKeyEncryptedOrPlaintext: true
+                coreExtIntIpUnnumbered: false
+                coreExtIntfAuthKey: null
+                coreExtOspfArea: '0'
+                corePassiveInterace: false
+                coreVirtualRouterAddress: null
+                coreextIpv6Address: null
+                coreextIpv6SubnetMask: 64
+                coreextdescription: Ixia-INET
+                coreextinterfaceName: Ethernet3/1
+                coreextipAddress: 10.53.0.2
+                coreextmtu: 9000
+                coreextospf: Disabled
+                coreextspeed: null
+                coreextsubnetMask: 31
+                coreextvrf: null
+              loopbackSettings: {}
+              trafficEngineering: {}
+          tags:
+            query: device:JPE20012250
+        - inputs:
+            coreLinkDetails:
+              bgpDefaults:
+                bgpSettings:
+                  bgpDefaultSettings:
+                    bgpDPath: false
+                    bgpDistance: 20 200 200
+                    maximumPaths: 4
+                    maximumPathsEcmp: 4
+                    noBgpDefaultIPv4Unicast: false
+              coreeBgpNeighbors:
+              - coreneighborIp: 10.52.0.0
+                corepeerAsn: 65003
+                corepeerGroup: BORDER-LF
+                corevrf: null
+                description: Border-LF1a
+                shutdown: 'No'
+              - coreneighborIp: 10.52.0.2
+                corepeerAsn: 65003
+                corepeerGroup: BORDER-LF
+                corevrf: null
+                description: Border-LF1b
+                shutdown: 'No'
+              corepeerGroups:
+              - coreAddressFamily: null
+                coreBgpAuthKeyEncryptedOrPlaintext: true
+                coreEBgpAuthKey: null
+                coreMsAddressFamily:
+                - addressFamily: ipv4
+                corePeerGroupCliInput: []
+                coreRedistributionRouteMap: []
+                coreRouteMapInName: null
+                coreRouteMapOutName: null
+                coreasnSettings:
+                  coreAsPathRemoteAsReplace: false
+                corebgpoptions:
+                  corebfd: true
+                  corebgpDefaultInformationOriginate: Disabled
+                  coreospfDefaultInformationOriginate: Disabled
+                  coreredistributeConnectedRoutes: false
+                  coreredistributeRoutes: false
+                  coreredistributeStaticRoutes: false
+                coredciOptions: {}
+                coredescription: BORDER-LEAF
+                corepeerGroupName: BORDER-LF
+                corerouteMapIn: []
+                corerouteMapOut: []
+                familyRouteTargetOptions: {}
+                listenRange: []
+              igpAndBgpRedistribution:
+                redistribution:
+                  bgpSettings:
+                    iPv4: false
+                    iPv6: false
+                    ospfExternal: true
+                    ospfInternal: true
+                    ospfNssaExternal: true
+                    redistributeConnected: true
+                    redistributeIgp: false
+                    redistributeStatic: false
+                  igpSettings:
+                    iPv4: false
+                    iPv6: false
+                    redistributeBgp: false
+                    redistributeConnected: false
+                    redistributeStatic: false
+              interfaces:
+              - coreAuthKeyEncryptedOrPlaintext: true
+                coreExtIntIpUnnumbered: false
+                coreExtIntfAuthKey: null
+                coreExtOspfArea: '0'
+                corePassiveInterace: false
+                coreVirtualRouterAddress: null
+                coreextIpv6Address: null
+                coreextIpv6SubnetMask: 64
+                coreextdescription: Border-LF1a
+                coreextinterfaceName: Ethernet1
+                coreextipAddress: 10.52.0.1
+                coreextospf: Disabled
+                coreextspeed: null
+                coreextsubnetMask: 31
+                coreextvrf: null
+              - coreAuthKeyEncryptedOrPlaintext: true
+                coreExtIntIpUnnumbered: false
+                coreExtIntfAuthKey: null
+                coreExtOspfArea: '0'
+                corePassiveInterace: false
+                coreVirtualRouterAddress: null
+                coreextIpv6Address: null
+                coreextIpv6SubnetMask: 64
+                coreextdescription: Border-LF1b
+                coreextinterfaceName: Ethernet2
+                coreextipAddress: 10.52.0.3
+                coreextospf: Disabled
+                coreextspeed: null
+                coreextsubnetMask: 31
+                coreextvrf: null
+              loopbackSettings: {}
+          tags:
+            query: device:3B43374FB1F4982B5BACA7BFE63D129C
+        - inputs:
+            coreLinkDetails:
+              bgpDefaults: {}
+              coreBgpNetworks:
+                networks:
+                - network: 192.168.99.1/32
+              coreCommunityLists: []
+              coreeBgpNeighbors:
+              - coreneighborIp: 10.53.0.0
+                corepeerAsn: 65003
+                corepeerGroup: Border_LF
+                corevrf: null
+                description: BorderLeaf1a
+                shutdown: 'No'
+              - coreneighborIp: 10.53.0.2
+                corepeerAsn: 65003
+                corepeerGroup: Border_LF
+                corevrf: null
+                description: BorderLeaf1b
+                shutdown: 'No'
+              coreneighbor: []
+              corenodeSegmentIndexGroup: {}
+              corepeerGroups:
+              - coreAddressFamily: null
+                coreBgpAuthKeyEncryptedOrPlaintext: true
+                coreEBgpAuthKey: null
+                coreMsAddressFamily:
+                - addressFamily: ipv4
+                corePeerGroupCliInput: []
+                coreRedistributionRouteMap: []
+                coreRouteMapInName: null
+                coreRouteMapOutName: null
+                coreasnSettings:
+                  coreAsPathRemoteAsReplace: false
+                corebgpoptions: {}
+                coredciOptions: {}
+                coredescription: null
+                corepeerGroupName: Border_LF
+                corerouteMapIn: []
+                corerouteMapOut: []
+                familyRouteTargetOptions: {}
+                listenRange: []
+              coreprefixLists: []
+              corestaticRoutes: []
+              deviceCli: null
+              igpAndBgpRedistribution: {}
+              interfaces:
+              - coreAuthKeyEncryptedOrPlaintext: true
+                coreExtIntIpUnnumbered: false
+                coreExtIntfAuthKey: null
+                coreExtOspfArea: '0'
+                corePassiveInterace: false
+                coreVirtualRouterAddress: null
+                coreextIpv6Address: null
+                coreextIpv6SubnetMask: 64
+                coreextdescription: borderlf_1a
+                coreextinterfaceName: Ethernet1
+                coreextipAddress: 10.53.0.1
+                coreextmtu: 9000
+                coreextospf: Disabled
+                coreextspeed: null
+                coreextsubnetMask: 31
+                coreextvrf: null
+              - coreAuthKeyEncryptedOrPlaintext: true
+                coreExtIntIpUnnumbered: false
+                coreExtIntfAuthKey: null
+                coreExtOspfArea: '0'
+                corePassiveInterace: false
+                coreVirtualRouterAddress: null
+                coreextIpv6Address: null
+                coreextIpv6SubnetMask: 64
+                coreextdescription: borderlf_1b
+                coreextinterfaceName: Ethernet2
+                coreextipAddress: 10.53.0.3
+                coreextmtu: 9000
+                coreextospf: Disabled
+                coreextspeed: null
+                coreextsubnetMask: 31
+                coreextvrf: null
+              loopbackSettings: {}
+              trafficEngineering: {}
+          tags:
+            query: device:6C720D7A0BBE2C8D4C4A284B5010055F
+        enableOverlay: false
+        erDomains:
+        - inputs:
+            erDomain:
+              asPathLists: []
+              bgpDefaults: {}
+              bgpRedistributionInstances: []
+              communityLists: []
+              erDetails:
+              - inputs:
+                  erLinkDetails:
+                    deviceCli: null
+                    eBgNeighbors:
+                    - description: WAN
+                      neighborIp: 10.50.0.1
+                      peerAsn: 65010
+                      peerGroup: WAN
+                      redistributionInstance: null
+                      shutdown: 'No'
+                      vrf: VRF-1
+                    - description: INTERNET
+                      neighborIp: 10.51.0.1
+                      peerAsn: 65011
+                      peerGroup: INTERNET
+                      redistributionInstance: null
+                      shutdown: 'No'
+                      vrf: VRF-1
+                    - description: CloudEOS
+                      neighborIp: 10.52.0.1
+                      peerAsn: 65012
+                      peerGroup: CloudEOS
+                      redistributionInstance: null
+                      shutdown: 'No'
+                      vrf: VRF-1
+                    - description: vZTX
+                      neighborIp: 10.53.0.1
+                      peerAsn: 65013
+                      peerGroup: vZTX
+                      redistributionInstance: null
+                      shutdown: 'No'
+                      vrf: null
+                    erBgpNetworks: {}
+                    erneighbors: []
+                    interfaces:
+                    - erAuthKeyEncryptedOrPlaintext: true
+                      erExtIntfAuthKey: null
+                      erExtOspfArea: '0'
+                      extIntIpUnnumbered: false
+                      extIpv6Address: null
+                      extIpv6SubnetMask: 64
+                      extdescription: Border-LF1a_WAN
+                      extinterfaceName: Ethernet1
+                      extipAddress: 10.50.0.0
+                      extmtu: 9000
+                      extospf: Disabled
+                      extspeed: null
+                      extsubnetMask: 31
+                      extvrf: VRF-1
+                      passiveInterface: false
+                      virtualRouterAddress: null
+                    - erAuthKeyEncryptedOrPlaintext: true
+                      erExtIntfAuthKey: null
+                      erExtOspfArea: '0'
+                      extIntIpUnnumbered: false
+                      extIpv6Address: null
+                      extIpv6SubnetMask: 64
+                      extdescription: Border-LF1a_INET
+                      extinterfaceName: Ethernet2
+                      extipAddress: 10.51.0.0
+                      extmtu: 9000
+                      extospf: Disabled
+                      extspeed: null
+                      extsubnetMask: 31
+                      extvrf: VRF-1
+                      passiveInterface: false
+                      virtualRouterAddress: null
+                    - erAuthKeyEncryptedOrPlaintext: true
+                      erExtIntfAuthKey: null
+                      erExtOspfArea: '0'
+                      extIntIpUnnumbered: false
+                      extIpv6Address: null
+                      extIpv6SubnetMask: 64
+                      extdescription: Border-LF1a_CloudEOS
+                      extinterfaceName: Ethernet3
+                      extipAddress: 10.52.0.0
+                      extmtu: 9000
+                      extospf: Disabled
+                      extspeed: null
+                      extsubnetMask: 31
+                      extvrf: VRF-1
+                      passiveInterface: false
+                      virtualRouterAddress: null
+                    - erAuthKeyEncryptedOrPlaintext: true
+                      erExtIntfAuthKey: null
+                      erExtOspfArea: '0'
+                      extIntIpUnnumbered: false
+                      extIpv6Address: null
+                      extIpv6SubnetMask: 64
+                      extdescription: Border-LF1a_vZTX
+                      extinterfaceName: Ethernet3.1
+                      extipAddress: 10.53.0.0
+                      extmtu: 9000
+                      extospf: Disabled
+                      extspeed: null
+                      extsubnetMask: 31
+                      extvrf: null
+                      passiveInterface: false
+                      virtualRouterAddress: null
+                    loopback1: {}
+                    mlag: false
+                    mlagGroup: {}
+                    nodeSegmentIndexGroup: {}
+                    staticRoutes: []
+                    trafficEngineering: {}
+                tags:
+                  query: device:JMX2321BBG2
+              - inputs:
+                  erLinkDetails:
+                    deviceCli: null
+                    eBgNeighbors:
+                    - description: WAN
+                      neighborIp: 10.50.0.3
+                      peerAsn: 65010
+                      peerGroup: WAN
+                      redistributionInstance: null
+                      shutdown: 'No'
+                      vrf: VRF-1
+                    - description: INTERNET
+                      neighborIp: 10.51.0.3
+                      peerAsn: 65011
+                      peerGroup: INTERNET
+                      redistributionInstance: null
+                      shutdown: 'No'
+                      vrf: VRF-1
+                    - description: CloudEOS
+                      neighborIp: 10.52.0.3
+                      peerAsn: 65012
+                      peerGroup: CloudEOS
+                      redistributionInstance: null
+                      shutdown: 'No'
+                      vrf: VRF-1
+                    - description: vZTX
+                      neighborIp: 10.53.0.3
+                      peerAsn: 65013
+                      peerGroup: vZTX
+                      redistributionInstance: null
+                      shutdown: 'No'
+                      vrf: null
+                    erBgpNetworks: {}
+                    erneighbors: []
+                    interfaces:
+                    - erAuthKeyEncryptedOrPlaintext: true
+                      erExtIntfAuthKey: null
+                      erExtOspfArea: '0'
+                      extIntIpUnnumbered: false
+                      extIpv6Address: null
+                      extIpv6SubnetMask: 64
+                      extdescription: Border-LF1b_WAN
+                      extinterfaceName: Ethernet2
+                      extipAddress: 10.50.0.2
+                      extmtu: 9000
+                      extospf: Disabled
+                      extspeed: null
+                      extsubnetMask: 31
+                      extvrf: VRF-1
+                      passiveInterface: false
+                      virtualRouterAddress: null
+                    - erAuthKeyEncryptedOrPlaintext: true
+                      erExtIntfAuthKey: null
+                      erExtOspfArea: '0'
+                      extIntIpUnnumbered: false
+                      extIpv6Address: null
+                      extIpv6SubnetMask: 64
+                      extdescription: Border-LF1b_INET
+                      extinterfaceName: Ethernet1
+                      extipAddress: 10.51.0.2
+                      extmtu: 9000
+                      extospf: Disabled
+                      extspeed: null
+                      extsubnetMask: 31
+                      extvrf: VRF-1
+                      passiveInterface: false
+                      virtualRouterAddress: null
+                    - erAuthKeyEncryptedOrPlaintext: true
+                      erExtIntfAuthKey: null
+                      erExtOspfArea: '0'
+                      extIntIpUnnumbered: false
+                      extIpv6Address: null
+                      extIpv6SubnetMask: 64
+                      extdescription: Border-LF1b_CloudEOS
+                      extinterfaceName: Ethernet3
+                      extipAddress: 10.52.0.2
+                      extmtu: 9000
+                      extospf: Disabled
+                      extspeed: null
+                      extsubnetMask: 31
+                      extvrf: VRF-1
+                      passiveInterface: false
+                      virtualRouterAddress: null
+                    - erAuthKeyEncryptedOrPlaintext: true
+                      erExtIntfAuthKey: null
+                      erExtOspfArea: '0'
+                      extIntIpUnnumbered: false
+                      extIpv6Address: null
+                      extIpv6SubnetMask: 64
+                      extdescription: Border-LF1b_vZTX
+                      extinterfaceName: Ethernet3.1
+                      extipAddress: 10.53.0.2
+                      extmtu: 9000
+                      extospf: Disabled
+                      extspeed: null
+                      extsubnetMask: 31
+                      extvrf: null
+                      passiveInterface: false
+                      virtualRouterAddress: null
+                    loopback1: {}
+                    mlagGroup: {}
+                    nodeSegmentIndexGroup: {}
+                    staticRoutes: []
+                    trafficEngineering: {}
+                tags:
+                  query: device:JPA2320P22Q
+              igpAndBgpRedistribution: {}
+              peerGroups:
+              - RedistributionRouteMap: []
+                asnSettings: {}
+                bgpOptions:
+                  bfd: true
+                  bgpDefaultInformationOriginate: Disabled
+                  ospfDefaultInformationOriginate: Disabled
+                  redistributeConnectedRoutes: false
+                  redistributeRoutes: false
+                  redistributeStaticRoutes: false
+                dciOptions: {}
+                description: WAN
+                eBgpAuthKey: null
+                erAddressFamily: null
+                erBgpAuthKeyEncryptedOrPlaintext: true
+                erMsAddressFamily:
+                - addressFamily: ipv4
+                familyRouteTargetOptions: {}
+                listenRange: []
+                peerGroupCliInput: []
+                peerGroupName: WAN
+                routeMapIn: []
+                routeMapInName: null
+                routeMapOut: []
+                routeMapOutName: null
+              - RedistributionRouteMap: []
+                asnSettings: {}
+                bgpOptions:
+                  bfd: true
+                  bgpDefaultInformationOriginate: Disabled
+                  ospfDefaultInformationOriginate: Disabled
+                  redistributeConnectedRoutes: false
+                  redistributeRoutes: false
+                  redistributeStaticRoutes: false
+                dciOptions: {}
+                description: INET
+                eBgpAuthKey: null
+                erAddressFamily: null
+                erBgpAuthKeyEncryptedOrPlaintext: true
+                erMsAddressFamily:
+                - addressFamily: ipv4
+                familyRouteTargetOptions: {}
+                listenRange: []
+                peerGroupCliInput: []
+                peerGroupName: INTERNET
+                routeMapIn: []
+                routeMapInName: null
+                routeMapOut: []
+                routeMapOutName: null
+              - RedistributionRouteMap: []
+                asnSettings: {}
+                bgpOptions:
+                  bfd: true
+                  bgpDefaultInformationOriginate: Disabled
+                  ospfDefaultInformationOriginate: Disabled
+                  redistributeConnectedRoutes: false
+                  redistributeRoutes: false
+                  redistributeStaticRoutes: false
+                dciOptions: {}
+                description: CloudEOS
+                eBgpAuthKey: null
+                erAddressFamily: null
+                erBgpAuthKeyEncryptedOrPlaintext: true
+                erMsAddressFamily:
+                - addressFamily: ipv4
+                familyRouteTargetOptions: {}
+                listenRange: []
+                peerGroupCliInput: []
+                peerGroupName: CloudEOS
+                routeMapIn: []
+                routeMapInName: null
+                routeMapOut: []
+                routeMapOutName: null
+              - RedistributionRouteMap: []
+                asnSettings: {}
+                bgpOptions: {}
+                dciOptions: {}
+                description: vZTX
+                eBgpAuthKey: null
+                erAddressFamily: null
+                erBgpAuthKeyEncryptedOrPlaintext: true
+                erMsAddressFamily:
+                - addressFamily: ipv4
+                familyRouteTargetOptions: {}
+                listenRange: []
+                peerGroupCliInput: []
+                peerGroupName: vZTX
+                routeMapIn: []
+                routeMapInName: null
+                routeMapOut: []
+                routeMapOutName: null
+              prefixLists: []
+              routerGeneral: {}
+              rrHostnames: []
+          tags:
+            query: Edge-Router-Domain:Border-Leaf
+        globalBgpSettings: {}
+        rrs: []
+        underlayRoutingGroup:
+          bfd: true
+          bgpPeerGroupName: Routing-Underlay-BGP
+          bgpUpdate: true
+          gracefulRestart: false
+          igpAuthKeyEncryptedOrPlaintext: true
+          igpProcessId: 1
+          loopbackPrefixListName: Loopbacks-to-Underlay
+          protocols: []
+          redistributeConnected: false
+          redistributeStatic: false
+    tags:
+      query: Network:Border-Edge
+path: []
